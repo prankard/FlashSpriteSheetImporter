@@ -6,11 +6,26 @@ using System.Xml;
 using System.Collections.Generic;
 using System.Reflection;
 
+/// <summary>
+/// Sparrow v2 parser
+/// Parses an XML Sparrow 2d file into Unity Sprites
+/// For reference for the sparrow2d file format, see here:
+/// https://github.com/Gamua/Starling-Framework/blob/master/starling/src/starling/textures/TextureAtlas.as
+/// </summary>
+
 namespace Prankard.FlashSpriteSheetImporter
 {
-	public class FlashSpriteSheetParser : ISpriteSheetParser 
+	public class SparrowV2Parser : ISpriteSheetParser 
 	{
-		public bool ParseAsset (Texture2D asset, TextAsset textAsset)
+		public string FileExtension
+		{
+			get
+			{
+				return "xml";
+			}
+		}
+
+		public bool ParseAsset (Texture2D asset, TextAsset textAsset, Vector2 pivot)
 		{
 			XmlDocument doc = new XmlDocument();
 			doc.LoadXml(textAsset.text);
@@ -23,8 +38,13 @@ namespace Prankard.FlashSpriteSheetImporter
 				string name = GetAttribute(node, "name");
 				float x = float.Parse(GetAttribute(node, "x", "0"));
 				float y = float.Parse(GetAttribute(node, "y", "0"));
+				// We can't handle 'trim' option in Unity3d yet as we can't add extra empty space to sprite border
+				/*
 				float frameX = float.Parse(GetAttribute(node, "frameX", "0"));
 				float frameY = float.Parse(GetAttribute(node, "frameY", "0"));
+				float frameWidth = float.Parse(GetAttribute(node, "frameWidth", "0"));
+				float frameHeight = float.Parse(GetAttribute(node, "frameHeight", "0"));
+				*/
 				float width = float.Parse(GetAttribute(node, "width", "0"));
 				float height = float.Parse(GetAttribute(node, "height", "0"));
 				
@@ -34,8 +54,7 @@ namespace Prankard.FlashSpriteSheetImporter
 					smd.name = name;
 					smd.rect = new Rect(x, asset.height - y - height, width, height);
 
-					// Fix from Mikhail Pechaneu, thanks!
-					smd.pivot = new Vector2(frameX / width, -(frameY - height) / height); // pivot is percent value, not pixels
+					smd.pivot = pivot;
 					smd.alignment = 9; // We should use custom alignment, otherwise it will use Center alignment https://docs.unity3d.com/ScriptReference/SpriteMetaData-alignment.html
 
 					spriteSheet.Add(smd);

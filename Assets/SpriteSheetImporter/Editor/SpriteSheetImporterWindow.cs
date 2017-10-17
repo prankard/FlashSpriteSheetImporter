@@ -3,12 +3,16 @@ using System.Collections;
 using UnityEditor;
 using System.IO;
 using System.Reflection;
+using System.Collections.Generic;
 
 namespace Prankard.FlashSpriteSheetImporter
 {
 	public class SpriteSheetImporterWindow : EditorWindow
 	{
-		private static ISpriteSheetParser[] spriteParsers = new ISpriteSheetParser[]{new FlashSpriteSheetParser()};
+		private static Dictionary<SpriteDataFormat, ISpriteSheetParser> spriteParsers = new Dictionary<SpriteDataFormat, ISpriteSheetParser> ()
+		{
+			{ SpriteDataFormat.SparrowV2, new SparrowV2Parser() }
+		};
 
 		[MenuItem ("Window/Sprite Sheet Importer")]
 		static void Init () {
@@ -17,8 +21,12 @@ namespace Prankard.FlashSpriteSheetImporter
 			window.Show();
 		}
 
+		private Vector2 customPivot = Vector2.zero;
+
 		private Texture2D spriteSheet;
 		private TextAsset textAsset;
+		private SpriteDataFormat dataFormat = SpriteDataFormat.SparrowV2;
+		private SpriteAlignment spriteAlignment = SpriteAlignment.TopLeft;
 		
 		void OnGUI () 
 		{
@@ -30,11 +38,16 @@ namespace Prankard.FlashSpriteSheetImporter
 				{
 					// Look for text asset
 					string assetPath = AssetDatabase.GetAssetPath(newSpriteSheet);
-					string xmlPath = Path.GetDirectoryName(assetPath) + "/" + Path.GetFileNameWithoutExtension(assetPath) + ".xml";
-					TextAsset searchTextAsset = AssetDatabase.LoadAssetAtPath(xmlPath,typeof(TextAsset)) as TextAsset;
-					if (searchTextAsset != null)
+
+					foreach (ISpriteSheetParser parser in spriteParsers.Values)
 					{
-						textAsset = searchTextAsset;
+						var dataAssetPath = Path.GetDirectoryName(assetPath) + "/" + Path.GetFileNameWithoutExtension(assetPath) + "." + parser.FileExtension;
+						TextAsset searchTextAsset = AssetDatabase.LoadAssetAtPath(dataAssetPath,typeof(TextAsset)) as TextAsset;
+						if (searchTextAsset != null)
+						{
+							textAsset = searchTextAsset;
+							break;
+						}
 					}
 				}
 				spriteSheet = newSpriteSheet;
@@ -44,6 +57,10 @@ namespace Prankard.FlashSpriteSheetImporter
 
 			GUILayout.Label ("Sprites Information", EditorStyles.boldLabel);
 			textAsset = (TextAsset)EditorGUILayout.ObjectField("Sprite Sheet XML", textAsset, typeof(TextAsset), false);
+			dataFormat = (SpriteDataFormat)EditorGUILayout.EnumPopup ("Data Format", dataFormat);
+			spriteAlignment = (SpriteAlignment)EditorGUILayout.EnumPopup("Sprite Alignment", spriteAlignment);
+			if (spriteAlignment == SpriteAlignment.Custom)
+				customPivot = EditorGUILayout.Vector2Field ("Custom Pivot", customPivot);
 			
 			GUILayout.Space(10);
 			if (textAsset != null && spriteSheet != null)
@@ -57,14 +74,12 @@ namespace Prankard.FlashSpriteSheetImporter
 						return;
 					}
 
-					foreach (ISpriteSheetParser parser in spriteParsers)
+					if (spriteParsers[dataFormat].ParseAsset(spriteSheet, textAsset, PivotValue))
 					{
-						if (parser.ParseAsset(spriteSheet, textAsset))
-						{
-							Debug.Log("Imported Sprites");
-							return;
-						}
+						Debug.Log("Imported Sprites");
+						return;
 					}
+
 					Debug.LogError("Failed To Parse Asset");
 				}
 			}
@@ -87,6 +102,38 @@ namespace Prankard.FlashSpriteSheetImporter
 			mi.Invoke(importer, array);
 			
 			return new Vector2((int)array[0], (int)array[1]);
+		}
+
+		public Vector2 PivotValue
+		{
+			get
+			{
+				switch (spriteAlignment)
+				{
+				case SpriteAlignment.TopLeft:
+					return new Vector2 (0f, 1f);
+				case SpriteAlignment.TopCenter:
+					return new Vector2 (0.5f, 1f);
+				case SpriteAlignment.TopRight:
+					return new Vector2 (1f, 1f);
+				case SpriteAlignment.LeftCenter:
+					return new Vector2 (0f, 0.5f);
+				case SpriteAlignment.Center:
+					return new Vector2 (0.5f, 0.5f);
+				case SpriteAlignment.RightCenter:
+					return new Vector2 (1f, 0.5f);
+				case SpriteAlignment.BottomLeft:
+					return new Vector2 (0f, 0f);
+				case SpriteAlignment.BottomCenter:
+					return new Vector2 (0.5f, 0f);
+				case SpriteAlignment.BottomRight:
+					return new Vector2 (1f, 0f);
+				case SpriteAlignment.Custom:
+					return customPivot;
+				default:
+					throw new System.NotImplementedException ("I don't know the sprite alignment: " + spriteAlignment.ToString ());
+				}
+			}
 		}
 	}
 }
