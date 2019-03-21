@@ -5,7 +5,8 @@ namespace Prankard.FlashSpriteSheetImporter
 {
 	public interface ISpriteSheetParser 
 	{
-		bool ParseAsset(Texture2D asset, TextAsset textAsset, Vector2 pivot);
+		//Modified line (added parameters):
+		bool ParseAsset(Texture2D asset, TextAsset textAsset, Vector2 pivot, bool spriteAutoAlignMode, bool useFlashPivot);
 		/// <summary>
 		/// Gets the file extension without dot prefix
 		/// </summary>

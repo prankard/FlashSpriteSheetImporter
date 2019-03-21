@@ -11,7 +11,7 @@ namespace Prankard.FlashSpriteSheetImporter
 	{
 		private static Dictionary<SpriteDataFormat, ISpriteSheetParser> spriteParsers = new Dictionary<SpriteDataFormat, ISpriteSheetParser> ()
 		{
-			{ SpriteDataFormat.SparrowV2, new SparrowV2Parser() }
+			{ SpriteDataFormat.StarlingOrSparrowV2, new StarlingParser() }
 		};
 
 		[MenuItem ("Window/Sprite Sheet Importer")]
@@ -25,8 +25,10 @@ namespace Prankard.FlashSpriteSheetImporter
 
 		private Texture2D spriteSheet;
 		private TextAsset textAsset;
-		private SpriteDataFormat dataFormat = SpriteDataFormat.SparrowV2;
+		private SpriteDataFormat dataFormat = SpriteDataFormat.StarlingOrSparrowV2;
 		private SpriteAlignment spriteAlignment = SpriteAlignment.TopLeft;
+		private bool useSpriteAutoAlignMode = true; //Added line
+		private bool useXMLPivot = true; //Added line
 		
 		void OnGUI () 
 		{
@@ -58,10 +60,23 @@ namespace Prankard.FlashSpriteSheetImporter
 			GUILayout.Label ("Sprites Information", EditorStyles.boldLabel);
 			textAsset = (TextAsset)EditorGUILayout.ObjectField("Sprite Sheet XML", textAsset, typeof(TextAsset), false);
 			dataFormat = (SpriteDataFormat)EditorGUILayout.EnumPopup ("Data Format", dataFormat);
-			spriteAlignment = (SpriteAlignment)EditorGUILayout.EnumPopup("Sprite Alignment", spriteAlignment);
-			if (spriteAlignment == SpriteAlignment.Custom)
-				customPivot = EditorGUILayout.Vector2Field ("Custom Pivot", customPivot);
+
+
+			//Modification block begining
+			useSpriteAutoAlignMode = (bool)EditorGUILayout.Toggle("MovieClip Alignment?", useSpriteAutoAlignMode); 
+			GUILayout.Label ("(Aligns each frame according to its original position in the MovieClip.)", EditorStyles.miniLabel);
+
+			useXMLPivot = (bool)EditorGUILayout.Toggle("Use XML Pivot?", useXMLPivot); 
+			GUILayout.Label ("(Allows to use the pivot from the Starling XML file, if it is found.)", EditorStyles.miniLabel);
 			
+			if(!useXMLPivot){
+				spriteAlignment = (SpriteAlignment)EditorGUILayout.EnumPopup("Sprite Pivot", spriteAlignment);
+				if (spriteAlignment == SpriteAlignment.Custom){
+					customPivot = EditorGUILayout.Vector2Field ("Custom Pivot", customPivot);
+				}
+			}
+			//End of modification block
+
 			GUILayout.Space(10);
 			if (textAsset != null && spriteSheet != null)
 			{
@@ -74,7 +89,7 @@ namespace Prankard.FlashSpriteSheetImporter
 						return;
 					}
 
-					if (spriteParsers[dataFormat].ParseAsset(spriteSheet, textAsset, PivotValue))
+					if (spriteParsers[dataFormat].ParseAsset(spriteSheet, textAsset, PivotValue, useSpriteAutoAlignMode, useXMLPivot))
 					{
 						Debug.Log("Imported Sprites");
 						return;

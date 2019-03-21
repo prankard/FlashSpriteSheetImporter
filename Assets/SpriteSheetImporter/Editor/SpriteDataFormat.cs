@@ -2,6 +2,7 @@
 {
 	public enum SpriteDataFormat
 	{
-		SparrowV2
+		//Next line was modified:
+		StarlingOrSparrowV2
 	}
 }
