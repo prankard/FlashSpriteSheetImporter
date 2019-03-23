@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TestMovieclipExportCC2019-Sparrowv2-Trim-Stack.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Movieclip0000" x="0" y="0" width="50" height="50"/>
+	<SubTexture name="Movieclip0001" x="0" y="50" width="25" height="25" frameX="-25" frameY="-25" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="Movieclip0002" x="25" y="50" width="25" height="25" frameX="-25" frameY="0" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="Movieclip0003" x="0" y="75" width="25" height="25" frameX="0" frameY="0" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="Movieclip0004" x="25" y="75" width="25" height="25" frameX="0" frameY="-25" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="Movieclip0005" x="0" y="0" width="50" height="50"/>
+</TextureAtlas>
