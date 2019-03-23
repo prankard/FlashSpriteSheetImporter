@@ -45,6 +45,7 @@ namespace Prankard.FlashSpriteSheetImporter
 
 			foreach (XmlNode node in subTextures)
 			{
+				isFirstNode = true; //Allows to reset manual pivot (if selected) for each subTexture
 				string name = GetAttribute(node, "name");
 				Debug.Log("Spritesheet import :"+name);
 				//Modified block begining
