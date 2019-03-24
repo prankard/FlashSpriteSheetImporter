@@ -23,11 +23,11 @@ https://www.youtube.com/watch?v=p9Uq_5pG4sU
 
 This tool was created by James Prankard.
 
-The MovieClip Alignment and XML Pivot functions where added by Jonathan Tremblay (Cegep de Saint-Jerome).
-
+The Whitespace Trimming and and Pivot implementation was added by Jonathan Tremblay (Cegep de Saint-Jerome).
 
 # Version History #
 
+Version 1.0.5 - Added update for animation clip generation Mar 24, 2019
 Version 1.0.4 - Added support for empty frames. Mar 21, 2019
 Version 1.0.3 - Added MovieClip Alignment and XML Pivot functions. Mar 2, 2019
 Version 1.0.2 - Added custom pivot in sprites. Oct 20, 2017
