@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 34bd6a9cab53187478e4a9e390e7404f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WalkingFront0000
+    21300002: WalkingFront0001
+    21300004: WalkingFront0002
+    21300006: WalkingFront0003
+    21300008: WalkingFront0004
+    21300010: WalkingFront0005
+    21300012: WalkingFront0006
+    21300014: WalkingFront0007
+    21300016: WalkingFront0008
+    21300018: WalkingFront0009
+    21300020: WalkingFront0010
+    21300022: WalkingFront0011
+    21300024: WalkingFront0012
+    21300026: WalkingFront0013
+    21300028: WalkingFront0014
+    21300030: WalkingFront0015
+    21300032: WalkingFront0016
+    21300034: WalkingFront0017
+    21300036: WalkingFront0018
+    21300038: WalkingFront0019
+    21300040: WalkingFront0020
+    21300042: WalkingFront0021
+    21300044: WalkingFront0022
+    21300046: WalkingFront0023
+    21300048: WalkingFront0024
+    21300050: WalkingFront0025
+    21300052: WalkingFront0026
+    21300054: WalkingFront0027
+    21300056: WalkingFront0028
+    21300058: WalkingFront0029
+    21300060: WalkingFront0030
+    21300062: WalkingShadow0000
+    21300064: WalkingShadow0001
+    21300066: WalkingShadow0002
+    21300068: WalkingShadow0003
+    21300070: WalkingShadow0004
+    21300072: WalkingShadow0005
+    21300074: WalkingShadow0006
+    21300076: WalkingShadow0007
+    21300078: WalkingShadow0008
+    21300080: WalkingShadow0009
+    21300082: WalkingShadow0010
+    21300084: WalkingShadow0011
+    21300086: WalkingShadow0012
+    21300088: WalkingShadow0013
+    21300090: WalkingShadow0014
+    21300092: WalkingShadow0015
+    21300094: WalkingShadow0016
+    21300096: WalkingShadow0017
+    21300098: WalkingShadow0018
+    21300100: WalkingShadow0019
+    21300102: WalkingShadow0020
+    21300104: WalkingShadow0021
+    21300106: WalkingShadow0022
+    21300108: WalkingShadow0023
+    21300110: WalkingShadow0024
+    21300112: WalkingShadow0025
+    21300114: WalkingShadow0026
+    21300116: WalkingShadow0027
+    21300118: WalkingShadow0028
+    21300120: WalkingShadow0029
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkingFront0000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 824
+        width: 56
+        height: 198
+      alignment: 9
+      pivot: {x: 0.46964285, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9c1c8ebb2d6744c83efea6161be0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0001
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 823
+        width: 57
+        height: 199
+      alignment: 9
+      pivot: {x: 0.47894734, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2a59a317d8c0144be565c564d60fea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0002
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 821
+        width: 58
+        height: 201
+      alignment: 9
+      pivot: {x: 0.487931, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75734a99a41cea84ebb705ca572f3f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0003
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 821
+        width: 58
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5051724, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14629325f90b8bc478af82149f2e326d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0004
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 820
+        width: 59
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5135593, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caffaf23c81349340b56fd67f2266f8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0005
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 820
+        width: 60
+        height: 202
+      alignment: 9
+      pivot: {x: 0.505, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494a7567289111f41a8a63cdcdde4c49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0006
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 822
+        width: 60
+        height: 200
+      alignment: 9
+      pivot: {x: 0.4883333, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd304eec1df8884d91e48dcdc94c709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0007
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 822
+        width: 60
+        height: 200
+      alignment: 9
+      pivot: {x: 0.47166666, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76db4123e1765ec41abd834a613b98c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0008
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 822
+        width: 59
+        height: 200
+      alignment: 9
+      pivot: {x: 0.4457627, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc87d06d097959d4ba234b9f0d9f1556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0009
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 821
+        width: 59
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4118644, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8080dae9df16be347be397181c135a62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0010
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 823
+        width: 59
+        height: 199
+      alignment: 9
+      pivot: {x: 0.4118644, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a97398f035f807438926795193d002a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0011
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 823
+        width: 59
+        height: 199
+      alignment: 9
+      pivot: {x: 0.42881355, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f45648e594c9a4f99d787239abb8df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0012
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 824
+        width: 57
+        height: 198
+      alignment: 9
+      pivot: {x: 0.42631578, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415fbe40a0185e849aa2115b5374d72c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0013
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 826
+        width: 58
+        height: 196
+      alignment: 9
+      pivot: {x: 0.41896552, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f985a1f2a0ed9b945b725ee913c0925e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0014
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 828
+        width: 57
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4087719, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c94af1336fc6b408241ac9d0f06431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0015
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 827
+        width: 57
+        height: 195
+      alignment: 9
+      pivot: {x: 0.39122805, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0a3c3afd4fd7b43a1feecd5f2e02b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0016
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 622
+        width: 58
+        height: 196
+      alignment: 9
+      pivot: {x: 0.40172413, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654208bbd4dd65a49b60e631bbbfacf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0017
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 619
+        width: 58
+        height: 199
+      alignment: 9
+      pivot: {x: 0.38448274, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2499c27816c8a6b4faec9258b27f2a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0018
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 619
+        width: 57
+        height: 199
+      alignment: 9
+      pivot: {x: 0.3736842, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3b6c4e1c1580248866074b32b4eeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0019
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 619
+        width: 57
+        height: 199
+      alignment: 9
+      pivot: {x: 0.3736842, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f62f012a97e141b8c1eee6c96edef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0020
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 619
+        width: 57
+        height: 199
+      alignment: 9
+      pivot: {x: 0.3736842, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1516daffdfc6faf45911039a4a483907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0021
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 619
+        width: 57
+        height: 199
+      alignment: 9
+      pivot: {x: 0.39122805, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c4affc469768e48b13f4b375be6dbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0022
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 621
+        width: 56
+        height: 197
+      alignment: 9
+      pivot: {x: 0.41607141, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7f630df7df63e4e914713dc5ad3eb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0023
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 621
+        width: 56
+        height: 197
+      alignment: 9
+      pivot: {x: 0.4517857, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b2bad21f0c5ce46b81b21ac83f92a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0024
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 621
+        width: 55
+        height: 197
+      alignment: 9
+      pivot: {x: 0.4781818, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51e45d69463ca84ea575cabe002bca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0025
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 622
+        width: 55
+        height: 196
+      alignment: 9
+      pivot: {x: 0.4963636, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d47c596ecccde043a69a314de83f7b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0026
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 622
+        width: 54
+        height: 196
+      alignment: 9
+      pivot: {x: 0.50555557, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5accf6667f801a845850ea7a506bb7be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0027
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 623
+        width: 54
+        height: 195
+      alignment: 9
+      pivot: {x: 0.48703703, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6d5be7562c2d84bbfdc99162733fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0028
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 623
+        width: 56
+        height: 195
+      alignment: 9
+      pivot: {x: 0.48749998, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e8fea780ead6f4e965dd6075490eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0029
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 625
+        width: 57
+        height: 193
+      alignment: 9
+      pivot: {x: 0.47894734, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fb4f3f3be1ccb4da5253e058147b46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingFront0030
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 622
+        width: 57
+        height: 196
+      alignment: 9
+      pivot: {x: 0.47894734, y: 0.92368424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26152fbb0769e0439fbf385a5921450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0000
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 667
+        width: 70
+        height: 151
+      alignment: 9
+      pivot: {x: 0.49357143, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a385f2ba4fa6940a6035fef2d3ad58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0001
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 668
+        width: 71
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5007042, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85169092348cab24cae0818bd0095c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 467
+        width: 73
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5006849, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebefe034600963343ae21887bf688f81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0003
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 469
+        width: 73
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5006849, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2165bd5be15ec524aadf0a5e9bd991b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0004
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 468
+        width: 73
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5006849, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12626808e201bd4ebc655c5190095c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0005
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 468
+        width: 72
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5076389, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaf22c5fb915df439f74a3e34b244b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0006
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 467
+        width: 70
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5221428, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1736d7904de58ef47ba82ae58afa47ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0007
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 467
+        width: 66
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5234848, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7508df25c25bb43a93d95125fafb1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0008
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 466
+        width: 62
+        height: 151
+      alignment: 9
+      pivot: {x: 0.525, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eda0a244dcd5449b4213206c7fcf1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0009
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 466
+        width: 59
+        height: 151
+      alignment: 9
+      pivot: {x: 0.50084746, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7449195258bf94a4a9a526cf5a8bb501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0010
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 466
+        width: 54
+        height: 151
+      alignment: 9
+      pivot: {x: 0.49166664, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df6230c2d9a98046b3e0d184579e4ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0011
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 466
+        width: 49
+        height: 151
+      alignment: 9
+      pivot: {x: 0.48061222, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93367ceb2a4c641459f007cb73234a7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0012
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 467
+        width: 46
+        height: 150
+      alignment: 9
+      pivot: {x: 0.4902174, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95395ca761785f47ab64649959237b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0013
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 466
+        width: 46
+        height: 151
+      alignment: 9
+      pivot: {x: 0.4902174, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c029d34393007cb47b3f485207ddc30b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0014
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 467
+        width: 47
+        height: 150
+      alignment: 9
+      pivot: {x: 0.4585106, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d784785242ff0e478b83bad731eb39b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0015
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 467
+        width: 47
+        height: 150
+      alignment: 9
+      pivot: {x: 0.47978723, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64c6172a1049424faabb7c568c9f557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0016
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 468
+        width: 45
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5011111, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a49f49c2ee21b49acf2a7e720f473d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0017
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 468
+        width: 44
+        height: 149
+      alignment: 9
+      pivot: {x: 0.53522724, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2a08f05d433c2448ab355ec80715c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0018
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 469
+        width: 42
+        height: 148
+      alignment: 9
+      pivot: {x: 0.56071424, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8470276445d8174993f42d02af2b6a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0019
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 316
+        width: 45
+        height: 148
+      alignment: 9
+      pivot: {x: 0.6122222, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05c6df6fd2c54748aa70d8860f4c029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0020
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 315
+        width: 48
+        height: 149
+      alignment: 9
+      pivot: {x: 0.63645834, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccc1155c93979a49b9d67e7a23dcc11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0021
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 315
+        width: 54
+        height: 149
+      alignment: 9
+      pivot: {x: 0.6212963, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d17e3a360a41c49ad5b5533111fbbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0022
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 314
+        width: 59
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5855932, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fabe0c7128182468798931635cbc58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0023
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 313
+        width: 65
+        height: 151
+      alignment: 9
+      pivot: {x: 0.56230766, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcd7fd7f4c0440419b4395e93d628eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0024
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 312
+        width: 68
+        height: 152
+      alignment: 9
+      pivot: {x: 0.55220586, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfee3899dd1cc74a98622c61dc8acfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0025
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 312
+        width: 70
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5364286, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60db1944cb71ca4b8324650247a8fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0026
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 312
+        width: 74
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5209459, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e76c33e8f4a11449e9b4410fa6385e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0027
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 313
+        width: 72
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5076389, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a61394ea48d4549804d6617c4797d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0028
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 312
+        width: 73
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5006849, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99241a57b3023a44a30fa71f458c896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingShadow0029
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 313
+        width: 73
+        height: 151
+      alignment: 9
+      pivot: {x: 0.48698628, y: 0.050640985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba89c093ec6a92c42abbcc14e65157b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 645a17b4285288c41a70480ab0b7e08e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WalkingPeople.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="WalkingFront0000" x="2" y="2" width="56" height="198" pivotX="30.3" pivotY="15.95" frameX="-4" frameY="-1" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0001" x="60" y="2" width="57" height="199" frameX="-3" frameY="-2" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0002" x="119" y="2" width="58" height="201" frameX="-2" frameY="-3" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0003" x="179" y="2" width="58" height="201" frameX="-1" frameY="-5" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0004" x="239" y="2" width="59" height="202" frameX="0" frameY="-6" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0005" x="300" y="2" width="60" height="202" frameX="0" frameY="-7" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0006" x="362" y="2" width="60" height="200" frameX="-1" frameY="-8" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0007" x="424" y="2" width="60" height="200" frameX="-2" frameY="-7" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0008" x="486" y="2" width="59" height="200" frameX="-4" frameY="-7" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0009" x="547" y="2" width="59" height="201" frameX="-6" frameY="-5" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0010" x="608" y="2" width="59" height="199" frameX="-6" frameY="-4" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0011" x="669" y="2" width="59" height="199" frameX="-5" frameY="-2" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0012" x="730" y="2" width="57" height="198" frameX="-6" frameY="-1" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0013" x="789" y="2" width="58" height="196" frameX="-6" frameY="0" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0014" x="849" y="2" width="57" height="194" frameX="-7" frameY="0" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0015" x="908" y="2" width="57" height="195" frameX="-8" frameY="0" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0016" x="2" y="206" width="58" height="196" frameX="-7" frameY="-1" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0017" x="62" y="206" width="58" height="199" frameX="-8" frameY="-2" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0018" x="122" y="206" width="57" height="199" frameX="-9" frameY="-4" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0019" x="181" y="206" width="57" height="199" frameX="-9" frameY="-5" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0020" x="240" y="206" width="57" height="199" frameX="-9" frameY="-7" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0021" x="299" y="206" width="57" height="199" frameX="-8" frameY="-8" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0022" x="358" y="206" width="56" height="197" frameX="-7" frameY="-9" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0023" x="416" y="206" width="56" height="197" frameX="-5" frameY="-9" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0024" x="474" y="206" width="55" height="197" frameX="-4" frameY="-8" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0025" x="531" y="206" width="55" height="196" frameX="-3" frameY="-7" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0026" x="588" y="206" width="54" height="196" frameX="-3" frameY="-5" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0027" x="644" y="206" width="54" height="195" frameX="-4" frameY="-4" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0028" x="700" y="206" width="56" height="195" frameX="-3" frameY="-2" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0029" x="758" y="206" width="57" height="193" frameX="-3" frameY="-1" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingFront0030" x="817" y="206" width="57" height="196" frameX="-3" frameY="-1" frameWidth="66" frameHeight="209"/>
+	<SubTexture name="WalkingShadow0000" x="876" y="206" width="70" height="151" pivotX="38.55" pivotY="148.1" frameX="-4" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0001" x="948" y="206" width="71" height="150" frameX="-3" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0002" x="2" y="407" width="73" height="150" frameX="-2" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0003" x="77" y="407" width="73" height="148" frameX="-2" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0004" x="152" y="407" width="73" height="149" frameX="-2" frameY="-4" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0005" x="227" y="407" width="72" height="149" frameX="-2" frameY="-3" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0006" x="301" y="407" width="70" height="150" frameX="-2" frameY="-2" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0007" x="373" y="407" width="66" height="150" frameX="-4" frameY="-1" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0008" x="441" y="407" width="62" height="151" frameX="-6" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0009" x="505" y="407" width="59" height="151" frameX="-9" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0010" x="566" y="407" width="54" height="151" frameX="-12" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0011" x="622" y="407" width="49" height="151" frameX="-15" frameY="-1" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0012" x="673" y="407" width="46" height="150" frameX="-16" frameY="-3" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0013" x="721" y="407" width="46" height="151" frameX="-16" frameY="-4" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0014" x="769" y="407" width="47" height="150" frameX="-17" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0015" x="818" y="407" width="47" height="150" frameX="-16" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0016" x="867" y="407" width="45" height="149" frameX="-16" frameY="-6" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0017" x="914" y="407" width="44" height="149" frameX="-15" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0018" x="960" y="407" width="42" height="148" frameX="-15" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0019" x="2" y="560" width="45" height="148" frameX="-11" frameY="-5" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0020" x="49" y="560" width="48" height="149" frameX="-8" frameY="-3" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0021" x="99" y="560" width="54" height="149" frameX="-5" frameY="-2" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0022" x="155" y="560" width="59" height="150" frameX="-4" frameY="-1" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0023" x="216" y="560" width="65" height="151" frameX="-2" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0024" x="283" y="560" width="68" height="152" frameX="-1" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0025" x="353" y="560" width="70" height="152" frameX="-1" frameY="0" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0026" x="425" y="560" width="74" height="152" frameX="0" frameY="-1" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0027" x="501" y="560" width="72" height="151" frameX="-2" frameY="-2" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0028" x="575" y="560" width="73" height="152" frameX="-2" frameY="-3" frameWidth="76" frameHeight="156"/>
+	<SubTexture name="WalkingShadow0029" x="650" y="560" width="73" height="151" frameX="-3" frameY="-4" frameWidth="76" frameHeight="156"/>
+</TextureAtlas>

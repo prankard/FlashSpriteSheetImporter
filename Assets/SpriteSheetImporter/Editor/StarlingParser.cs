@@ -32,9 +32,12 @@ namespace Prankard.FlashSpriteSheetImporter
 		{
 			XmlDocument doc = new XmlDocument();
 			doc.LoadXml(textAsset.text);
-			
+
 			XmlNodeList subTextures = doc.SelectNodes("//SubTexture");
 			List<SpriteMetaData> spriteSheet = new List<SpriteMetaData>();
+
+            bool pivotSet = false;
+            Vector2 pivotPixels;
 
 			foreach (XmlNode node in subTextures)
 			{
@@ -44,33 +47,87 @@ namespace Prankard.FlashSpriteSheetImporter
 				float y = GetFloatAttribute(node, "y");
 				float width = GetFloatAttribute(node, "width");
 				float height = GetFloatAttribute(node, "height");
+                pivotPixels.x = inputPivot.x * width;
+                pivotPixels.y = inputPivot.y * height;
 
-
+                //Debug.Log(width);
                 // Pivot (starling only, effects next sprite pivots)
                 if (!forcePivotOverwrite && (HasAttribute(node, "pivotX") || HasAttribute(node, "pivotY")))
                 {
+                    //Debug.Log(GetFloatAttribute(node, "pivotX"));
+                    pivotPixels.x = GetFloatAttribute(node, "pivotX");
+                    pivotPixels.y = GetFloatAttribute(node, "pivotY");
+                    float frameWidth = GetFloatAttribute(node, "frameWidth");
+                    float frameHeight = GetFloatAttribute(node, "frameHeight");
+
+                    if (frameWidth != 0)
+                        inputPivot.x = pivotPixels.x / frameWidth;
+                    else if (width != 0)
+                        inputPivot.x = pivotPixels.x / width;
+
+                    if (frameHeight != 0)
+                    {
+                        inputPivot.y = 1 - pivotPixels.y / frameHeight;
+                        pivotPixels.y = frameHeight - inputPivot.y; // flip pivot
+                    }
+                    else if (height != 0)
+                    {
+                        inputPivot.y = 1 - pivotPixels.y / height;
+                        pivotPixels.y = height - pivotPixels.y; // flip pivot
+                    }
+
+                    //pivotPixels.y = GetFloatAttribute(node, "pivotY");
+
+                    //Debug.Log(inputPivot.x +"," + inputPivot.y);
+
+                    /*
                     if (width != 0)
                         inputPivot.x = GetFloatAttribute(node, "pivotX") / width;
                     if (height != 0)
                         inputPivot.y = 1 - (GetFloatAttribute(node, "pivotY") / height);
+                        */
+
+
+
+                    //Debug.Log(inputPivot.x);
                 }
 
-                Vector2 spritePivot = inputPivot;
+                //Vector2 spritePivot = inputPivot;
+                // Check for zero divide
+
+                Vector2 spritePivot = new Vector2(pivotPixels.x / width, pivotPixels.y / height);
 
                 // Adjust pivot for trim whitespace
                 if (width != 0 && HasAttribute(node, "frameX"))
                 {
                     float frameX = GetFloatAttribute(node, "frameX");
                     float frameWidth = GetFloatAttribute(node, "frameWidth");
+                    pivotPixels.x = inputPivot.x * frameWidth;
 
-                    spritePivot.x = (spritePivot.x * frameWidth + frameX) / width;
+                    //pivotPixels.x = frameWidth * inputPivot.x;
+
+                    spritePivot.x = (pivotPixels.x + frameX) / width;
+                    //Debug.Log(spritePivot.x + " = (" + pivotPixels.x + " + " + frameX + ") / " + width);
+
+                    //spritePivot.x = (spritePivot.x * frameWidth + frameX) / width;
                 }
                 if (height != 0 && HasAttribute(node, "frameY"))
                 {
                     float frameY = GetFloatAttribute(node, "frameY");
                     float frameHeight = GetFloatAttribute(node, "frameHeight");
+                    pivotPixels.y = inputPivot.y * frameHeight;
+                    //pivotPixels.y = frameHeight * inputPivot.y;
 
-                    spritePivot.y = 1 - (frameHeight - (spritePivot.y * frameHeight) + frameY) / height;
+                    //spritePivot.y = ((pivotPixels.y) + frameY) / height;
+                    spritePivot.y = ((pivotPixels.y )) / frameHeight;
+                    //Debug.Log(name);
+                    //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
+                    //spritePivot.y = 1 - (frameHeight - (spritePivot.y * frameHeight) + frameY) / height;
+                }
+                else
+                {
+                    //Debug.Log(name);
+                    //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
                 }
 
                 // Make Sprite
