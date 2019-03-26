@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AnimationWithEmptyFrames.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AnimationWithEmptyFrames0000" x="2" y="2" width="50" height="50" pivotX="40" pivotY="40" frameX="-15" frameY="-15" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0001" x="54" y="2" width="43" height="47" frameX="-19" frameY="-22" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0002" x="99" y="2" width="35" height="45" frameX="-23" frameY="-28" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0003" x="136" y="2" width="27" height="43" frameX="-27" frameY="-34" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0004" x="165" y="2" width="20" height="43" frameX="-30" frameY="-37" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0005" x="187" y="2" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0006" x="187" y="2" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0007" x="2" y="2" width="50" height="50" frameX="-15" frameY="-15" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0008" x="189" y="2" width="43" height="47" frameX="-19" frameY="-12" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0009" x="2" y="54" width="35" height="45" frameX="-23" frameY="-8" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0010" x="39" y="54" width="27" height="43" frameX="-27" frameY="-4" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0011" x="68" y="54" width="20" height="44" frameX="-30" frameY="0" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0012" x="90" y="54" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0013" x="90" y="54" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0014" x="2" y="2" width="50" height="50" frameX="-15" frameY="-15" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0015" x="92" y="54" width="47" height="43" frameX="-22" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0016" x="141" y="54" width="45" height="35" frameX="-28" frameY="-23" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0017" x="188" y="54" width="43" height="27" frameX="-34" frameY="-27" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0018" x="2" y="101" width="43" height="20" frameX="-37" frameY="-30" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0019" x="47" y="101" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0020" x="47" y="101" width="0" height="0" frameX="-40" frameY="-40" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0021" x="2" y="2" width="50" height="50" frameX="-15" frameY="-15" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0022" x="49" y="101" width="47" height="43" frameX="-12" frameY="-19" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0023" x="98" y="101" width="45" height="35" frameX="-8" frameY="-23" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0024" x="145" y="101" width="43" height="27" frameX="-4" frameY="-27" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="AnimationWithEmptyFrames0025" x="190" y="101" width="44" height="20" frameX="0" frameY="-30" frameWidth="80" frameHeight="80"/>
+</TextureAtlas>

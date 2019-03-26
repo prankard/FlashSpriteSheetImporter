@@ -119,7 +119,7 @@ namespace Prankard.FlashSpriteSheetImporter
                     //pivotPixels.y = frameHeight * inputPivot.y;
 
                     //spritePivot.y = ((pivotPixels.y) + frameY) / height;
-                    spritePivot.y = ((pivotPixels.y )) / frameHeight;
+					spritePivot.y = ((height + pivotPixels.y - frameY) / height) - (frameHeight / height); //BUGFIX on Y pivot
                     //Debug.Log(name);
                     //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
                     //spritePivot.y = 1 - (frameHeight - (spritePivot.y * frameHeight) + frameY) / height;
@@ -130,6 +130,13 @@ namespace Prankard.FlashSpriteSheetImporter
                     //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
                 }
 
+				//Added security mechanism:
+                if(float.IsNaN(spritePivot.x) || float.IsNaN(spritePivot.y))
+                { 
+                    //spritePivot is invalid, probably because the sprite dimensions are equal to 0
+                    spritePivot = Vector2.zero; //pivot is set to zero, to prevent animation errors
+                }
+				
                 // Make Sprite
 				SpriteMetaData smd = new SpriteMetaData();
 				smd.name = name;

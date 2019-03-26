@@ -42,6 +42,12 @@ namespace Prankard.FlashSpriteSheetImporter
             ObjectReferenceKeyframe[] spriteKeyFrames = new ObjectReferenceKeyframe[sprites.Length];
             for (int i = 0; i < (sprites.Length); i++)
             {
+				//Added security check:
+				if(float.IsNaN(sprites[i].pivot.x)||float.IsNaN(sprites[i].pivot.y))
+                {
+                    Debug.Log("There is a problem with sprite: "+sprites[i].name+" (pivot is NaN)");
+                }
+				
                 spriteKeyFrames[i] = new ObjectReferenceKeyframe();
                 spriteKeyFrames[i].time = i / clip.frameRate;
                 spriteKeyFrames[i].value = sprites[i];
