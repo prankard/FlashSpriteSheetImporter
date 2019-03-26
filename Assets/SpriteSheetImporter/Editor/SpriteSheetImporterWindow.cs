@@ -4,6 +4,7 @@ using UnityEditor;
 using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Prankard.FlashSpriteSheetImporter
 {
@@ -27,82 +28,104 @@ namespace Prankard.FlashSpriteSheetImporter
 		private TextAsset textAsset;
 		private SpriteDataFormat dataFormat = SpriteDataFormat.StarlingOrSparrowV2;
 		private SpriteAlignment spriteAlignment = SpriteAlignment.TopLeft;
-		private bool useSpriteAutoAlignMode = true; //Added line
-		private bool useXMLPivot = true; //Added line
-		
-		void OnGUI () 
-		{
-			GUILayout.Label ("Texture", EditorStyles.boldLabel);
-			Texture2D newSpriteSheet = (Texture2D)EditorGUILayout.ObjectField("Sprite Sheet", spriteSheet, typeof(Texture2D), false);
-			if (newSpriteSheet != null)
-			{
-				if (spriteSheet != newSpriteSheet)
-				{
-					// Look for text asset
-					string assetPath = AssetDatabase.GetAssetPath(newSpriteSheet);
+        private bool forcePivotOverwrite = false;
+        private bool generateSpriteSheet = false;
+        private bool generateGameObject = false;
+        private float fps = 24.0f;
 
-					foreach (ISpriteSheetParser parser in spriteParsers.Values)
-					{
-						var dataAssetPath = Path.GetDirectoryName(assetPath) + "/" + Path.GetFileNameWithoutExtension(assetPath) + "." + parser.FileExtension;
-						TextAsset searchTextAsset = AssetDatabase.LoadAssetAtPath(dataAssetPath,typeof(TextAsset)) as TextAsset;
-						if (searchTextAsset != null)
-						{
-							textAsset = searchTextAsset;
-							break;
-						}
-					}
-				}
-				spriteSheet = newSpriteSheet;
-			}
-			else
-				spriteSheet = null;
+        private string errorMessage = null;
 
-			GUILayout.Label ("Sprites Information", EditorStyles.boldLabel);
-			textAsset = (TextAsset)EditorGUILayout.ObjectField("Sprite Sheet XML", textAsset, typeof(TextAsset), false);
-			dataFormat = (SpriteDataFormat)EditorGUILayout.EnumPopup ("Data Format", dataFormat);
+        void OnGUI()
+        {
+            GUILayout.Label("Texture", EditorStyles.boldLabel);
+            Texture2D newSpriteSheet = (Texture2D)EditorGUILayout.ObjectField("Sprite Sheet", spriteSheet, typeof(Texture2D), false);
+            if (newSpriteSheet != null)
+            {
+                if (spriteSheet != newSpriteSheet)
+                {
+                    // Look for text asset
+                    string assetPath = AssetDatabase.GetAssetPath(newSpriteSheet);
 
+                    foreach (ISpriteSheetParser parser in spriteParsers.Values)
+                    {
+                        var dataAssetPath = Path.GetDirectoryName(assetPath) + "/" + Path.GetFileNameWithoutExtension(assetPath) + "." + parser.FileExtension;
+                        TextAsset searchTextAsset = AssetDatabase.LoadAssetAtPath(dataAssetPath, typeof(TextAsset)) as TextAsset;
+                        if (searchTextAsset != null)
+                        {
+                            textAsset = searchTextAsset;
+                            break;
+                        }
+                    }
+                }
+                spriteSheet = newSpriteSheet;
+            }
+            else
+                spriteSheet = null;
 
-			//Modification block begining
-			useSpriteAutoAlignMode = (bool)EditorGUILayout.Toggle("MovieClip Alignment?", useSpriteAutoAlignMode); 
-			GUILayout.Label ("(Aligns each frame according to its original position in the MovieClip.)", EditorStyles.miniLabel);
+            GUILayout.Label("Sprites Information", EditorStyles.boldLabel);
+            textAsset = (TextAsset)EditorGUILayout.ObjectField("Sprite Sheet XML", textAsset, typeof(TextAsset), false);
+            dataFormat = (SpriteDataFormat)EditorGUILayout.EnumPopup("Data Format", dataFormat);
 
-			useXMLPivot = (bool)EditorGUILayout.Toggle("Use XML Pivot?", useXMLPivot); 
-			GUILayout.Label ("(Allows to use the pivot from the Starling XML file, if it is found.)", EditorStyles.miniLabel);
-			
-			if(!useXMLPivot){
-				spriteAlignment = (SpriteAlignment)EditorGUILayout.EnumPopup("Sprite Pivot", spriteAlignment);
-				if (spriteAlignment == SpriteAlignment.Custom){
-					customPivot = EditorGUILayout.Vector2Field ("Custom Pivot", customPivot);
-				}
-			}
-			//End of modification block
+            GUILayout.Label("Import Options", EditorStyles.boldLabel);
+            forcePivotOverwrite = EditorGUILayout.Toggle("Force Overwrite Pivot", forcePivotOverwrite);
 
-			GUILayout.Space(10);
-			if (textAsset != null && spriteSheet != null)
-			{
-				if (GUILayout.Button("Import Sprites"))
-				{
-					Vector2 size = GetOriginalSize(newSpriteSheet);
-					if (size.x  != spriteSheet.width && size.y != spriteSheet.height)
-					{
-						Debug.LogWarning("Cannot convert sprite sheet when it's not it's original size. It's original size is '" + size.x +"x" + size.y+"' and build size is '" + spriteSheet.width + "x" + spriteSheet.height + "'. You can change the texture size to it's original size, import sprites and then change the texture size back.");
-						return;
-					}
+            if (forcePivotOverwrite)
+            {
+                spriteAlignment = (SpriteAlignment)EditorGUILayout.EnumPopup("Sprite Pivot", spriteAlignment);
+                if (spriteAlignment == SpriteAlignment.Custom) {
+                    customPivot = EditorGUILayout.Vector2Field("Custom Pivot", customPivot);
+                }
+            }
 
-					if (spriteParsers[dataFormat].ParseAsset(spriteSheet, textAsset, PivotValue, useSpriteAutoAlignMode, useXMLPivot))
-					{
-						Debug.Log("Imported Sprites");
-						return;
-					}
+            GUILayout.Label("Animation Options", EditorStyles.boldLabel);
+            generateSpriteSheet = EditorGUILayout.Toggle("Generate Animation", generateSpriteSheet);
+            if (generateSpriteSheet)
+            {
+                fps = EditorGUILayout.FloatField("Frames Per Second", fps);
+                generateGameObject = EditorGUILayout.Toggle("Create GameObject", generateGameObject);
+            }
 
-					Debug.LogError("Failed To Parse Asset");
-				}
-			}
-			else
-			{
-				GUILayout.Label ("Cannot Import", EditorStyles.boldLabel);
-				GUILayout.Label ("Please select a sprite sheet and text asset to import sprite sheet", EditorStyles.textArea);
-			}
+            GUILayout.Space(10);
+            if (textAsset != null && spriteSheet != null)
+            {
+                if (GUILayout.Button("Import Sprites"))
+                {
+                    errorMessage = null;
+
+                    Vector2 size = GetOriginalSize(newSpriteSheet);
+                    if (size.x != spriteSheet.width && size.y != spriteSheet.height)
+                    {
+                        errorMessage = "Cannot convert sprite sheet when it's not it's original size. It's original size is '" + size.x + "x" + size.y + "' and build size is '" + spriteSheet.width + "x" + spriteSheet.height + "'. You can change the texture size to it's original size, import sprites and then change the texture size back.";
+                        Debug.LogWarning(errorMessage);
+                        //Debug.LogWarning("Cannot convert sprite sheet when it's not it's original size. It's original size is '" + size.x +"x" + size.y+"' and build size is '" + spriteSheet.width + "x" + spriteSheet.height + "'. You can change the texture size to it's original size, import sprites and then change the texture size back.");
+                        return;
+                    }
+
+                    if (spriteParsers[dataFormat].ParseAsset(spriteSheet, textAsset, forcePivotOverwrite ? PivotValue : new Vector2(0f, 1.0f), forcePivotOverwrite))
+                    {
+                        Debug.Log("Imported Sprites");
+                        if (generateSpriteSheet)
+                        {
+                            AnimationCreator.GenerateAnimation(spriteSheet, fps, generateGameObject);
+                        }
+
+                        return;
+                    }
+
+                    Debug.LogError("Failed To Parse Asset");
+                }
+            }
+            else
+            {
+                GUILayout.Label("Cannot Import", EditorStyles.boldLabel);
+                GUILayout.Label("Please select a sprite sheet and text asset to import sprite sheet", EditorStyles.helpBox);
+            }
+
+            if (!string.IsNullOrEmpty(errorMessage))
+            {
+                GUILayout.Space(10);
+                EditorGUILayout.HelpBox(errorMessage, MessageType.Warning);
+            }
 		}
 		
 		public static Vector2 GetOriginalSize(Texture2D texture)

@@ -6,6 +6,7 @@ using System.Xml;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Globalization;
+using System.Linq;
 
 /// <summary>
 /// Starling parser
@@ -16,8 +17,8 @@ using System.Globalization;
 
 namespace Prankard.FlashSpriteSheetImporter
 {
-	public class StarlingParser : ISpriteSheetParser 
-	{
+	public class StarlingParser : ISpriteSheetParser
+    {
 		public string FileExtension
 		{
 			get
@@ -27,107 +28,123 @@ namespace Prankard.FlashSpriteSheetImporter
 		}
 
 		//Modified line (added parameters):
-		public bool ParseAsset (Texture2D asset, TextAsset textAsset, Vector2 pivot, bool useSpriteAutoAlignMode, bool useXMLPivot)
+		public bool ParseAsset (Texture2D asset, TextAsset textAsset, Vector2 inputPivot, bool forcePivotOverwrite)
 		{
 			XmlDocument doc = new XmlDocument();
 			doc.LoadXml(textAsset.text);
-			
+
 			XmlNodeList subTextures = doc.SelectNodes("//SubTexture");
 			List<SpriteMetaData> spriteSheet = new List<SpriteMetaData>();
 
-			//Modified block begining
-			//Allows the use of Starling pivot data:
-			bool isFirstNode = true;
-			Vector2 pxPivot = Vector2.zero;
-			float frameHeight = 0;
-			float frameWidth = 0;
-			//End of modified block
+            bool pivotSet = false;
+            Vector2 pivotPixels;
 
 			foreach (XmlNode node in subTextures)
 			{
-				isFirstNode = true; //Allows to reset manual pivot (if selected) for each subTexture
 				string name = GetAttribute(node, "name");
-				Debug.Log("Spritesheet import :"+name);
-				//Modified block begining
-				// CultureInfo.InvariantCulture is used to bypass Regional Settings which may be configured 
-				// on some computers to use comma instead of period (e.g. French, German)
-				float x = float.Parse(GetAttribute(node, "x", "0"), CultureInfo.InvariantCulture); 
-				float y = float.Parse(GetAttribute(node, "y", "0"), CultureInfo.InvariantCulture);
-				float width = float.Parse(GetAttribute(node, "width", "0"), CultureInfo.InvariantCulture);
-				float height = float.Parse(GetAttribute(node, "height", "0"), CultureInfo.InvariantCulture);
-				//End of modified block
 
-				//Modified block begining
-				// To consider the relative positionning of each frame of the animation:
-				float frameX = float.Parse(GetAttribute(node, "frameX", "0"), CultureInfo.InvariantCulture);
-				float frameY = float.Parse(GetAttribute(node, "frameY", "0"), CultureInfo.InvariantCulture);
+				float x = GetFloatAttribute(node, "x"); 
+				float y = GetFloatAttribute(node, "y");
+				float width = GetFloatAttribute(node, "width");
+				float height = GetFloatAttribute(node, "height");
+                pivotPixels.x = inputPivot.x * width;
+                pivotPixels.y = inputPivot.y * height;
 
-				if(isFirstNode){
-					isFirstNode=false;
+                //Debug.Log(width);
+                // Pivot (starling only, effects next sprite pivots)
+                if (!forcePivotOverwrite && (HasAttribute(node, "pivotX") || HasAttribute(node, "pivotY")))
+                {
+                    //Debug.Log(GetFloatAttribute(node, "pivotX"));
+                    pivotPixels.x = GetFloatAttribute(node, "pivotX");
+                    pivotPixels.y = GetFloatAttribute(node, "pivotY");
+                    float frameWidth = GetFloatAttribute(node, "frameWidth");
+                    float frameHeight = GetFloatAttribute(node, "frameHeight");
 
-					frameWidth = float.Parse(GetAttribute(node, "frameWidth", "0"), CultureInfo.InvariantCulture);
-					frameHeight = float.Parse(GetAttribute(node, "frameHeight", "0"), CultureInfo.InvariantCulture);
+                    if (frameWidth != 0)
+                        inputPivot.x = pivotPixels.x / frameWidth;
+                    else if (width != 0)
+                        inputPivot.x = pivotPixels.x / width;
 
-					if(!useXMLPivot){
-						//A pivot has been selected by the user in the menu,
-						//It will be converted to consider the MovieClip dimensions: 
-						pxPivot.x = frameWidth  * pivot.x;
-						pxPivot.y = frameHeight * (pivot.y - 1);
-						//Debug.Log("Manual pivot mode. pivot="+pivot+" pxPivot="+pxPivot+".");
-					}
-				}	
-				//End of Modified block
+                    if (frameHeight != 0)
+                    {
+                        inputPivot.y = 1 - pivotPixels.y / frameHeight;
+                        pivotPixels.y = frameHeight - inputPivot.y; // flip pivot
+                    }
+                    else if (height != 0)
+                    {
+                        inputPivot.y = 1 - pivotPixels.y / height;
+                        pivotPixels.y = height - pivotPixels.y; // flip pivot
+                    }
 
-				//if (width != 0 && height != 0) //Condition removed because it was causing a problem when the first frame of a clip was empty (which may be usefull)
-				//{                              //However, width or height equal to zero are treated bellow to prevent math errors
-					SpriteMetaData smd = new SpriteMetaData();
-					smd.name = name;
-					smd.rect = new Rect(x, asset.height - y - height, width, height);
+                    //pivotPixels.y = GetFloatAttribute(node, "pivotY");
 
-					//Modified block begining
-					smd.pivot = pivot; //this will be the default value
+                    //Debug.Log(inputPivot.x +"," + inputPivot.y);
 
-					//Debug.Log("Pivot frame 1="+pivot.ToString("F3")+" pivot mc="+mcPivot.ToString("F3")); //F3 spécifie 3 décimales
-
-					if(useXMLPivot){
-						//the pivot in the XML data should be used
-						string txtPivotX = GetAttribute(node, "pivotX"); //default value will be an empty string
-						string txtPivotY = GetAttribute(node, "pivotY");
-						if(txtPivotX != "" && txtPivotY != ""){
-							//both pivot info were found
-
-							//Debug.Log("txtPivotX="+txtPivotX+" txtPivotY"+txtPivotY);
-							pxPivot.x = float.Parse(txtPivotX, CultureInfo.InvariantCulture);
-							pxPivot.y = float.Parse(txtPivotY, CultureInfo.InvariantCulture);
-							pxPivot.y *= -1; //Y value is inverted
-							//Debug.Log("XMLPivot detected for the sprite «"+name+"». pxPivot="+pxPivot+".");
-						}
-					}
-
-					if(useSpriteAutoAlignMode){
-						//the frame should be positionned relatively to its position inside the original MovieClip
-						Vector2 imgPos = Vector2.zero;
-						if (width != 0){
-							imgPos.x = (pxPivot.x + frameX) / width;
-						} else { //this default value prevents divide by zero errors:
-							imgPos.x = 0;
-						}
-					
-						if (height != 0){
-							imgPos.y = ((height + pxPivot.y - frameY) / height);
-						} else { //this default value prevents divide by zero errors:
-							imgPos.y = 0;
-						}
+                    /*
+                    if (width != 0)
+                        inputPivot.x = GetFloatAttribute(node, "pivotX") / width;
+                    if (height != 0)
+                        inputPivot.y = 1 - (GetFloatAttribute(node, "pivotY") / height);
+                        */
 
 
-						smd.pivot = imgPos; //the position of this frame will be used as a pivot 
-					}
-					//End of modification block
-					
-					smd.alignment = 9; // We should use custom alignment, otherwise it will use Center alignment https://docs.unity3d.com/ScriptReference/SpriteMetaData-alignment.html
 
-					spriteSheet.Add(smd);
-				//}
+                    //Debug.Log(inputPivot.x);
+                }
+
+                //Vector2 spritePivot = inputPivot;
+                // Check for zero divide
+
+                Vector2 spritePivot = new Vector2(pivotPixels.x / width, pivotPixels.y / height);
+
+                // Adjust pivot for trim whitespace
+                if (width != 0 && HasAttribute(node, "frameX"))
+                {
+                    float frameX = GetFloatAttribute(node, "frameX");
+                    float frameWidth = GetFloatAttribute(node, "frameWidth");
+                    pivotPixels.x = inputPivot.x * frameWidth;
+
+                    //pivotPixels.x = frameWidth * inputPivot.x;
+
+                    spritePivot.x = (pivotPixels.x + frameX) / width;
+                    //Debug.Log(spritePivot.x + " = (" + pivotPixels.x + " + " + frameX + ") / " + width);
+
+                    //spritePivot.x = (spritePivot.x * frameWidth + frameX) / width;
+                }
+                if (height != 0 && HasAttribute(node, "frameY"))
+                {
+                    float frameY = GetFloatAttribute(node, "frameY");
+                    float frameHeight = GetFloatAttribute(node, "frameHeight");
+                    pivotPixels.y = inputPivot.y * frameHeight;
+                    //pivotPixels.y = frameHeight * inputPivot.y;
+
+                    //spritePivot.y = ((pivotPixels.y) + frameY) / height;
+					spritePivot.y = ((height + pivotPixels.y - frameY) / height) - (frameHeight / height); //BUGFIX on Y pivot
+                    //Debug.Log(name);
+                    //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
+                    //spritePivot.y = 1 - (frameHeight - (spritePivot.y * frameHeight) + frameY) / height;
+                }
+                else
+                {
+                    //Debug.Log(name);
+                    //Debug.Log(spritePivot.y + " = (" + pivotPixels.y + ") / " + height);
+                }
+
+				//Added security mechanism:
+                if(float.IsNaN(spritePivot.x) || float.IsNaN(spritePivot.y))
+                { 
+                    //spritePivot is invalid, probably because the sprite dimensions are equal to 0
+                    spritePivot = Vector2.zero; //pivot is set to zero, to prevent animation errors
+                }
+				
+                // Make Sprite
+				SpriteMetaData smd = new SpriteMetaData();
+				smd.name = name;
+				smd.rect = new Rect(x, asset.height - y - height, width, height);
+				smd.pivot = spritePivot;
+				smd.alignment = 9; // Custom Sprite alignment (not center)
+
+				spriteSheet.Add(smd);
 			}
 			
 			if (spriteSheet.Count != 0)
@@ -138,14 +155,27 @@ namespace Prankard.FlashSpriteSheetImporter
 				importer.textureType = TextureImporterType.Sprite;
 				importer.spriteImportMode = SpriteImportMode.Multiple;
 				AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
-				return true;
+
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
+
+                return true;
 			}
 			else
 			{
-	//			Debug.Log("No sprites found in: " + AssetDatabase.GetAssetPath(textAsset));
+				Debug.Log("No sprites found in: " + AssetDatabase.GetAssetPath(textAsset));
 			}
 			return false;
 		}
+
+        private static float GetFloatAttribute(XmlNode node, string name, float defaultValue = 0)
+        {
+            XmlNode attribute = node.Attributes.GetNamedItem(name);
+            if (attribute == null)
+                return defaultValue;
+
+            return float.Parse(attribute.Value, CultureInfo.InvariantCulture);
+        }
 		
 		private static string GetAttribute(XmlNode node, string name, string defaultValue="")
 		{
@@ -155,5 +185,9 @@ namespace Prankard.FlashSpriteSheetImporter
 			return attribute.Value;
 		}
 
+        private static bool HasAttribute(XmlNode node, string name)
+        {
+            return node.Attributes.GetNamedItem(name) != null;
+        }
 	}
 }

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Stickman.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sitckman0000" x="2" y="2" width="96" height="142" pivotX="19.85" pivotY="6.3"/>
+	<SubTexture name="Sitckman0001" x="100" y="2" width="94" height="128" frameX="0" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0002" x="196" y="2" width="56" height="132" frameX="-9" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0003" x="2" y="146" width="50" height="139" frameX="-7" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0004" x="54" y="146" width="42" height="138" frameX="-9" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0005" x="54" y="146" width="42" height="138" frameX="-9" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0006" x="2" y="146" width="50" height="139" frameX="-7" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0007" x="196" y="2" width="56" height="132" frameX="-9" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0008" x="100" y="2" width="94" height="128" frameX="0" frameY="0" frameWidth="96" frameHeight="142"/>
+	<SubTexture name="Sitckman0009" x="2" y="2" width="96" height="142"/>
+</TextureAtlas>
