@@ -83,11 +83,16 @@ namespace Prankard.FlashSpriteSheetImporter
                     // Continue animation sequence
                     spritesInAnimationClip.Add(sprite);
                 }
+                else if (lastNumber == null && number == null)
+                {
+                    // There are no numbers at the end, but put them all together
+                    // Or else we will end up with a lot of animations
+                    spritesInAnimationClip.Add(sprite);
+                }
                 else
                 {
                     // If we don't have a number, or number is out of order
                     // Push old animation sequence,
-                    // start creating new animation sequence
                     if (spritesInAnimationClip != null && spritesInAnimationClip.Count > 0)
                     {
                         spriteAnimations.Add(new SpriteSheetAnimationData()
@@ -97,7 +102,9 @@ namespace Prankard.FlashSpriteSheetImporter
                             name = lastName,
                         });
                     }
+                    // start creating new animation sequence
                     spritesInAnimationClip = new List<Sprite>();
+                    spritesInAnimationClip.Add(sprite);
                 }
                 lastName = name;
                 lastNumber = number;
@@ -168,7 +175,6 @@ namespace Prankard.FlashSpriteSheetImporter
             int index = input.Length - 1;
             while (index > 0)
             {
-                int charVal = (int)input[index];
                 if (input[index] < 48 || input[index] > 57)
                 {
                     // It's not a number
