@@ -107,6 +107,7 @@ namespace Prankard.FlashSpriteSheetImporter
             {
                 spriteAnimations.Add(new SpriteSheetAnimationData()
                 {
+                    framesPerSecond = fps,
                     sprites = spritesInAnimationClip.ToArray(),
                     name = lastName,
                 });
