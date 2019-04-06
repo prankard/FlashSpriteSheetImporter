@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CharacterWithSubclipsActions.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SperoAttack0000" x="2" y="2" width="61" height="108" pivotX="45.55" pivotY="104.4" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0001" x="2" y="442" width="69" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0002" x="254" y="112" width="75" height="108"/>
+	<SubTexture name="SperoAttack0003" x="331" y="112" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0004" x="406" y="112" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0005" x="2" y="222" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0006" x="71" y="222" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0007" x="138" y="222" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0008" x="202" y="222" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack0009" x="410" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0000" x="65" y="2" width="0" height="0" pivotX="45.35" pivotY="104.4" frameX="-45" frameY="-104" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0001" x="128" y="112" width="61" height="108" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0002" x="328" y="222" width="69" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0003" x="67" y="2" width="75" height="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0004" x="144" y="2" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0005" x="219" y="2" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0006" x="291" y="2" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0007" x="360" y="2" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0008" x="427" y="2" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0009" x="2" y="112" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0010" x="63" y="112" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstAndLastFrames0011" x="124" y="112" width="0" height="0" frameX="-45" frameY="-104" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0000" x="126" y="112" width="0" height="0" pivotX="45.3" pivotY="104.4" frameX="-45" frameY="-104" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0001" x="128" y="112" width="61" height="108" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0002" x="328" y="222" width="69" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0003" x="399" y="222" width="75" height="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0004" x="2" y="332" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0005" x="77" y="332" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0006" x="149" y="332" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0007" x="218" y="332" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0008" x="285" y="332" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0009" x="349" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyFirstFrame0010" x="410" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0000" x="191" y="112" width="61" height="108" pivotX="45.4" pivotY="104.4" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0001" x="328" y="222" width="69" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0002" x="254" y="112" width="75" height="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0003" x="331" y="112" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0004" x="406" y="112" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0005" x="2" y="222" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0006" x="71" y="222" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0007" x="138" y="222" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0008" x="202" y="222" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0009" x="410" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyLastFrame0010" x="263" y="222" width="0" height="0" frameX="-45" frameY="-104" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0000" x="265" y="222" width="61" height="108" pivotX="45.2" pivotY="104.4" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0001" x="328" y="222" width="69" height="108" frameX="-6" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0002" x="399" y="222" width="75" height="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0003" x="2" y="332" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0004" x="77" y="332" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0005" x="149" y="332" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0006" x="218" y="332" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0007" x="285" y="332" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0008" x="349" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0009" x="410" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0010" x="471" y="332" width="0" height="0" frameX="-45" frameY="-104" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0011" x="265" y="222" width="61" height="108" frameX="-14" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0012" x="2" y="442" width="69" height="108" frameX="-6" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0013" x="399" y="222" width="75" height="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0014" x="2" y="332" width="73" height="108" frameX="-2" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0015" x="77" y="332" width="70" height="108" frameX="-5" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0016" x="149" y="332" width="67" height="108" frameX="-8" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0017" x="218" y="332" width="65" height="108" frameX="-10" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0018" x="285" y="332" width="62" height="108" frameX="-13" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0019" x="349" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoAttack_EmptyMiddleFrame0020" x="410" y="332" width="59" height="108" frameX="-16" frameY="0" frameWidth="75" frameHeight="108"/>
+	<SubTexture name="SperoDead_SingleFrame0000" x="73" y="442" width="117" height="38" pivotX="56.6" pivotY="30.55"/>
+	<SubTexture name="SperoDown0000" x="192" y="442" width="39" height="115" pivotX="18.45" pivotY="111.4"/>
+	<SubTexture name="SperoDown0001" x="233" y="442" width="39" height="110" frameX="0" frameY="-5" frameWidth="39" frameHeight="115"/>
+	<SubTexture name="SperoDown0002" x="274" y="442" width="39" height="115"/>
+	<SubTexture name="SperoDown0003" x="233" y="442" width="39" height="110" frameX="0" frameY="-5" frameWidth="39" frameHeight="115"/>
+	<SubTexture name="SperoInvisible0000" x="315" y="442" width="0" height="0" pivotX="0" pivotY="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="SperoLeft0000" x="317" y="442" width="56" height="109" pivotX="29.4" pivotY="107.55" frameX="-3" frameY="-2" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoLeft0001" x="375" y="442" width="44" height="110" frameX="-16" frameY="-1" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoLeft0002" x="421" y="442" width="59" height="108" frameX="0" frameY="-3" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoLeft0003" x="2" y="559" width="45" height="111" frameX="-15" frameY="0" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoRight0000" x="49" y="559" width="57" height="109" pivotX="28.3" pivotY="107.55" frameX="-1" frameY="-2" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoRight0001" x="108" y="559" width="44" height="110" frameX="0" frameY="-1" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoRight0002" x="154" y="559" width="59" height="108" frameX="-1" frameY="-3" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoRight0003" x="215" y="559" width="45" height="111" frameX="0" frameY="0" frameWidth="60" frameHeight="111"/>
+	<SubTexture name="SperoUp0000" x="262" y="559" width="37" height="110" pivotX="16.4" pivotY="109.35" frameX="0" frameY="-3" frameWidth="38" frameHeight="113"/>
+	<SubTexture name="SperoUp0001" x="301" y="559" width="36" height="113" frameX="-1" frameY="0" frameWidth="38" frameHeight="113"/>
+	<SubTexture name="SperoUp0002" x="339" y="559" width="37" height="110" frameX="-1" frameY="-3" frameWidth="38" frameHeight="113"/>
+	<SubTexture name="SperoUp0003" x="378" y="559" width="37" height="113" frameX="0" frameY="0" frameWidth="38" frameHeight="113"/>
+</TextureAtlas>

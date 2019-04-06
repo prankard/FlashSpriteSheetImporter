@@ -38,13 +38,20 @@ namespace Prankard.FlashSpriteSheetImporter
             var objects = AssetDatabase.LoadAllAssetsAtPath(spriteSheetPath);
             var sprites = objects.Where(q => q is Sprite).Cast<Sprite>().ToArray();
 
-            var controller = UnityEditor.Animations.AnimatorController.CreateAnimatorControllerAtPath(pathNoExtension + ".controller");
+            var controller = UnityEditor.Animations.AnimatorController.CreateAnimatorControllerAtPath(pathNoExtension + "-Generated" + ".controller"); //Added "-Generated" to reduce overwrite risk
             var rootStateMachine = controller.layers[0].stateMachine;
+
+            //subfolder creation to reduce overwrite risk of manualy created animations:
+            string subdirectoryPath = Path.Combine(directoryPath, "Animations-Generated");
+            if(!AssetDatabase.IsValidFolder(subdirectoryPath))
+            {
+                AssetDatabase.CreateFolder(directoryPath, "Animations-Generated"); 
+            }
 
             var animations = GetAnimationSequence(sprites, fps);
             foreach (SpriteSheetAnimationData spriteAnimation in animations)
             {
-                AnimationClip clip = CreateAnimationClip(spriteAnimation, directoryPath);
+                AnimationClip clip = CreateAnimationClip(spriteAnimation, subdirectoryPath); //Changed to subdirectoryPath to reduce overwrite risk
 
                 var state = rootStateMachine.AddState(filename);
                 state.name = spriteAnimation.name;

@@ -36,7 +36,7 @@ namespace Prankard.FlashSpriteSheetImporter
 			XmlNodeList subTextures = doc.SelectNodes("//SubTexture");
 			List<SpriteMetaData> spriteSheet = new List<SpriteMetaData>();
 
-            bool pivotSet = false;
+            //bool pivotSet = false; //not used anymore
             Vector2 pivotPixels;
 
 			foreach (XmlNode node in subTextures)

@@ -1,0 +1,1864 @@
+fileFormatVersion: 2
+guid: bcf5a2af36b6f1b43ab3b9f4b729b227
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SperoAttack0000
+    21300002: SperoAttack0001
+    21300004: SperoAttack0002
+    21300006: SperoAttack0003
+    21300008: SperoAttack0004
+    21300010: SperoAttack0005
+    21300012: SperoAttack0006
+    21300014: SperoAttack0007
+    21300016: SperoAttack0008
+    21300018: SperoAttack0009
+    21300020: SperoAttack_EmptyFirstAndLastFrames0000
+    21300022: SperoAttack_EmptyFirstAndLastFrames0001
+    21300024: SperoAttack_EmptyFirstAndLastFrames0002
+    21300026: SperoAttack_EmptyFirstAndLastFrames0003
+    21300028: SperoAttack_EmptyFirstAndLastFrames0004
+    21300030: SperoAttack_EmptyFirstAndLastFrames0005
+    21300032: SperoAttack_EmptyFirstAndLastFrames0006
+    21300034: SperoAttack_EmptyFirstAndLastFrames0007
+    21300036: SperoAttack_EmptyFirstAndLastFrames0008
+    21300038: SperoAttack_EmptyFirstAndLastFrames0009
+    21300040: SperoAttack_EmptyFirstAndLastFrames0010
+    21300042: SperoAttack_EmptyFirstFrame0000
+    21300044: SperoAttack_EmptyFirstFrame0001
+    21300046: SperoAttack_EmptyFirstFrame0002
+    21300048: SperoAttack_EmptyFirstFrame0003
+    21300050: SperoAttack_EmptyFirstFrame0004
+    21300052: SperoAttack_EmptyFirstFrame0005
+    21300054: SperoAttack_EmptyFirstFrame0006
+    21300056: SperoAttack_EmptyFirstFrame0007
+    21300058: SperoAttack_EmptyFirstFrame0008
+    21300060: SperoAttack_EmptyFirstFrame0009
+    21300062: SperoAttack_EmptyFirstFrame0010
+    21300064: SperoAttack_EmptyLastFrame0000
+    21300066: SperoAttack_EmptyLastFrame0001
+    21300068: SperoAttack_EmptyLastFrame0002
+    21300070: SperoAttack_EmptyLastFrame0003
+    21300072: SperoAttack_EmptyLastFrame0004
+    21300074: SperoAttack_EmptyLastFrame0005
+    21300076: SperoAttack_EmptyLastFrame0006
+    21300078: SperoAttack_EmptyLastFrame0007
+    21300080: SperoAttack_EmptyLastFrame0008
+    21300082: SperoAttack_EmptyLastFrame0009
+    21300084: SperoAttack_EmptyLastFrame0010
+    21300086: SperoAttack_EmptyMiddleFrame0000
+    21300088: SperoAttack_EmptyMiddleFrame0001
+    21300090: SperoAttack_EmptyMiddleFrame0002
+    21300092: SperoAttack_EmptyMiddleFrame0003
+    21300094: SperoAttack_EmptyMiddleFrame0004
+    21300096: SperoAttack_EmptyMiddleFrame0005
+    21300098: SperoAttack_EmptyMiddleFrame0006
+    21300100: SperoAttack_EmptyMiddleFrame0007
+    21300102: SperoAttack_EmptyMiddleFrame0008
+    21300104: SperoAttack_EmptyMiddleFrame0009
+    21300106: SperoAttack_EmptyMiddleFrame0010
+    21300108: SperoAttack_EmptyMiddleFrame0011
+    21300110: SperoAttack_EmptyMiddleFrame0012
+    21300112: SperoAttack_EmptyMiddleFrame0013
+    21300114: SperoAttack_EmptyMiddleFrame0014
+    21300116: SperoAttack_EmptyMiddleFrame0015
+    21300118: SperoAttack_EmptyMiddleFrame0016
+    21300120: SperoAttack_EmptyMiddleFrame0017
+    21300122: SperoAttack_EmptyMiddleFrame0018
+    21300124: SperoAttack_EmptyMiddleFrame0019
+    21300126: SperoAttack_EmptyMiddleFrame0020
+    21300128: SperoDead_SingleFrame0000
+    21300130: SperoDown0000
+    21300132: SperoDown0001
+    21300134: SperoDown0002
+    21300136: SperoDown0003
+    21300138: SperoInvisible0000
+    21300140: SperoLeft0000
+    21300142: SperoLeft0001
+    21300144: SperoLeft0002
+    21300146: SperoLeft0003
+    21300148: SperoRight0000
+    21300150: SperoRight0001
+    21300152: SperoRight0002
+    21300154: SperoRight0003
+    21300156: SperoUp0000
+    21300158: SperoUp0001
+    21300160: SperoUp0002
+    21300162: SperoUp0003
+    21300164: SperoAttack_EmptyFirstAndLastFrames0011
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SperoAttack0000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 914
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5172131, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf62e21a26c2a847ac912b64b5dbe09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 474
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5876812, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33363c05cabb7aa4186a73c4807bfbb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0002
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 804
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6073333, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7263e8f206d157341b23079d9478298e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0003
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 804
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5965753, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14db2803f163d4a42a3ea9d3e24b6dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0004
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 804
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5792857, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b489234afcc2e45b0200307d323a27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0005
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 694
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.56044775, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa193ebdfba49cf49b67db4a9c82cb0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0006
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 694
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.54692304, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531b2d6fed0882049b9c592cc38132bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0007
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 694
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.525, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e446dca7ad8de41957216e4d9a8a05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0008
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 694
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50084746, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e873072aeb9214ab13fe34c8c7668b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack0009
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50084746, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78f2b30b12e08741a1967883151f4f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0000
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1022
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 100000, y: 100000}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e19813547e09b5489c54fa3e0c74f56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 804
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5139344, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdaae2ccf320b54ab2338dd40b00b87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0002
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 694
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5847826, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed7ed887bcd9b0458373b17f38e3391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0003
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 914
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.60466665, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1ff048e2723ba4cb4b3f2badf7ffff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0004
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 914
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5938356, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdc54cfa0421164bacce75b4852b03b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0005
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 914
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.57642853, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b07f21758242f74a9ddf5c61d3c96c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0006
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 914
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5574627, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a534cf69864fe024bafb5a3b899b69f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0007
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 914
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.54384613, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d524f3b72d166a419cc19e7a039fe08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0008
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 914
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5217742, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54fb8725fccf274fab0195b791c21e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0009
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 804
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4974576, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6a8af0daa8ff9479a1507c9ca8a1b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0010
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 804
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4974576, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a844695f644c940bd54c2afae95db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstAndLastFrames0011
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 912
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddbb31197257cf42a9c3eaba38f36b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0000
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 912
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 100000, y: 100000}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d896b05d41459a94ebf5bfc8aa19afb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 804
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51311475, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fbae31637098f49949743b8dc594ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0002
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 694
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.584058, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43353d19ab7dc674eac0fc3afa64ef73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0003
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 694
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.604, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47134c51f550d046989236087f7b7b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0004
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 584
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5931507, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf74336669afb34ab9b3fdb0c5fcc9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0005
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 584
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5757143, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0c3ab6de09f284b85508493acc4821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0006
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 584
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5567164, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1ed0d567d967b42a7c9295bc3f40a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0007
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 584
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.54307693, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3c55e99ac030049823586c46165f5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0008
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 584
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5209677, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc09553a1ef45f47952b29892e75eb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0009
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49661016, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c50b20a3b188d4ea4c16fc5ed53110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyFirstFrame0010
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49661016, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bed81dc61def7f469e4f69437d5699a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0000
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 804
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5147541, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d62cafb31c36d458ee32807f8aa054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0001
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 694
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5855073, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f20f82202139554c896ef0ff3f0b50d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0002
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 804
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6053333, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf534de8a67c57429ea803b26060a3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0003
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 804
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.59452057, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490762007f56a9246a0d8351000c2e0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0004
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 804
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5771429, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be45e9ec824334dac8b5f10c5f2b64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0005
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 694
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.558209, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceeeefc36e6fa54782a855e3184ff12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0006
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 694
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5446154, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0402f57b004a8db42ae43dad35246560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0007
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 694
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5225807, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd048749078aa64cb60feb7f1dc9a7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0008
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 694
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4983051, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c1cf4b6e4bdfe4887904c4bce28093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0009
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4983051, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5bb5ab1dd121148aa7d2f5930c7291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyLastFrame0010
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 802
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cd642c553c8a142b34dfcae8a7bd0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0000
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 694
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51147544, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aedf32c357e244ebfd4fca268a3e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0001
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 694
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.56811595, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9988f17c92c9e4d8263a62104fa608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0002
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 694
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6026667, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e8512bb165ae64986bbccd83fd4cc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0003
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 584
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.59178084, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044fb8850838ea54cb9279404dafaf96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0004
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 584
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.57428575, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233b04be391461a4e8348b341bac2126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0005
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 584
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5552239, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9f9b71cf36c564e852545b8e17ab2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 584
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5415385, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259177f328a8ab74fa24605e38861fb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0007
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 584
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5193549, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ecf7ab827514e478a574c827ca4ea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0008
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49491528, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93817e8868d221a43ae5c7e11f6389b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0009
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49491528, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dcb284ab0419444b52c09c2f0b0033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0010
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 692
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb04df18042bf340b3799ce89178b86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0011
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 694
+        width: 61
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51147544, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32e227ea0d039c408fe02e5bc3cf488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0012
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 474
+        width: 69
+        height: 108
+      alignment: 9
+      pivot: {x: 0.56811595, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18354de3bf238c4e99eef27026d0717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0013
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 694
+        width: 75
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6026667, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3265ebbe7d2d0a448994d0aeb2d0f97c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0014
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 584
+        width: 73
+        height: 108
+      alignment: 9
+      pivot: {x: 0.59178084, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6092785d402416c4eb5dcd9af00c4296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0015
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 584
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.57428575, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e6d98bb464c9941a68cc04c167ed88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0016
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 584
+        width: 67
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5552239, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77848a44da0169143b6593397c4b7b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0017
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 584
+        width: 65
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5415385, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54707eba8753af64e9c96bb937d427ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0018
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 584
+        width: 62
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5193549, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59690d4301680734f9ada12d6291dc3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0019
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49491528, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b9d7b0ce8e48a46aba6aa68a33fa60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoAttack_EmptyMiddleFrame0020
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49491528, y: 0.03333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be6bc838ff20a348b89f3bf78c4e5b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoDead_SingleFrame0000
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 544
+        width: 117
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48376068, y: 0.19605266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8433c8d15e8cb44949c5fcc4e82606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoDown0000
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 467
+        width: 39
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47307694, y: 0.031304333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c224692e8c1d10446baf00cb61adfb89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoDown0001
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 472
+        width: 39
+        height: 110
+      alignment: 9
+      pivot: {x: 0.47307694, y: 0.032727256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df91a26f7109c14397d81681b1539b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoDown0002
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 467
+        width: 39
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47307694, y: 0.031304333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3208b266a680d4088077895a9e522e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoDown0003
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 472
+        width: 39
+        height: 110
+      alignment: 9
+      pivot: {x: 0.47307694, y: 0.032727256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad396228979c33d4081cdd46890fb3dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoInvisible0000
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 582
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145257846b6dd5247b867b47b56e3677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoLeft0000
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 473
+        width: 56
+        height: 109
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.031651348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b650993d9d6fe6945bc3dd87babeb10f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoLeft0001
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 472
+        width: 44
+        height: 110
+      alignment: 9
+      pivot: {x: 0.30454543, y: 0.03136361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb17b4faabcfc96408297979fc321b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoLeft0002
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 474
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49830508, y: 0.031944416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7658dc72a5b5d145bbb274949fbab90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoLeft0003
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 354
+        width: 45
+        height: 111
+      alignment: 9
+      pivot: {x: 0.32, y: 0.031081054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b4b13af3bc3f24a954a3835beb2356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoRight0000
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 356
+        width: 57
+        height: 109
+      alignment: 9
+      pivot: {x: 0.47894734, y: 0.031651348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae987dec8a1ed24682f8a924e10c578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoRight0001
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 355
+        width: 44
+        height: 110
+      alignment: 9
+      pivot: {x: 0.6431818, y: 0.03136361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597051667d11e554dad294d37a572d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoRight0002
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 357
+        width: 59
+        height: 108
+      alignment: 9
+      pivot: {x: 0.46271184, y: 0.031944416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c12006b59f97f49b1cd6d810a1d6d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoRight0003
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 354
+        width: 45
+        height: 111
+      alignment: 9
+      pivot: {x: 0.62888885, y: 0.031081054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a3caf6203e4ff49b7e0a9368b887aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoUp0000
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 355
+        width: 37
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44324324, y: 0.03318183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad2256ca5348e4b987244c4e5aabd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoUp0001
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 352
+        width: 36
+        height: 113
+      alignment: 9
+      pivot: {x: 0.42777777, y: 0.032300897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c35a5032cc508e4fb7195d89ccb2c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoUp0002
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 355
+        width: 37
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4162162, y: 0.03318183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0467bbb0bf1f94bb169213ee317bed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SperoUp0003
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 352
+        width: 37
+        height: 113
+      alignment: 9
+      pivot: {x: 0.44324324, y: 0.032300897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66ec2baabf3d904e904f02c255d0b76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a81ed36f2d0ae24daf8efb51c3058f1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
