@@ -1,7 +1,10 @@
-﻿namespace Prankard.FlashSpriteSheetImporter
+﻿using System.ComponentModel;
+
+namespace Prankard.FlashSpriteSheetImporter
 {
 	public enum SpriteDataFormat
-	{
-		SparrowV2
-	}
+    {
+        [Description("Starling or SparrowV2")]
+        StarlingOrSparrowV2
+    }
 }

@@ -1,0 +1,693 @@
+fileFormatVersion: 2
+guid: 7b5e06700dbedf34f87fce0eb3d3e36c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Symbol 1 instance 10000
+    21300002: Symbol 1 instance 10001
+    21300004: Symbol 1 instance 10002
+    21300006: Symbol 1 instance 10003
+    21300008: Symbol 1 instance 10004
+    21300010: Symbol 1 instance 10005
+    21300012: Symbol 1 instance 10006
+    21300014: Symbol 1 instance 10007
+    21300016: Symbol 1 instance 10008
+    21300018: Symbol 1 instance 10009
+    21300020: Symbol 1 instance 10010
+    21300022: Symbol 1 instance 10011
+    21300024: Symbol 1 instance 10012
+    21300026: Symbol 1 instance 10013
+    21300028: Symbol 1 instance 10014
+    21300030: Symbol 1 instance 10015
+    21300032: Symbol 1 instance 10016
+    21300034: Symbol 1 instance 10017
+    21300036: Symbol 1 instance 10018
+    21300038: Symbol 1 instance 10019
+    21300040: Symbol 1 instance 10020
+    21300042: Symbol 1 instance 10021
+    21300044: Symbol 1 instance 10022
+    21300046: Symbol 1 instance 10023
+    21300048: Symbol 1 instance 10024
+    21300050: Symbol 1 instance 10025
+    21300052: Symbol 1 instance 10026
+    21300054: Symbol 1 instance 10027
+    21300056: Symbol 1 instance 10028
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Symbol 1 instance 10000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 246
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4937501, y: 5.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8dacdebcb3c0d4da1d3175cb27052c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10001
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 245
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.13928577, y: 4.638889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5622d1da5ddcfe648af6cd508aeffd3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10002
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 244
+        width: 20
+        height: 10
+      alignment: 9
+      pivot: {x: -0.05249996, y: 4.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cc28faf2ad8284e84514f1b474d748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10003
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 227
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: -0.78928566, y: 1.5462962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a46cc0ce174a284fbb450b0546e2406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10004
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 230
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.03653849, y: 1.7395834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63c39ab757d60b41a8b4e2c8916ff01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10005
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 243
+        width: 28
+        height: 11
+      alignment: 9
+      pivot: {x: 0.21250002, y: 3.7954545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fa1c9ba9428d240abe28d7281c4f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10006
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 243
+        width: 28
+        height: 11
+      alignment: 9
+      pivot: {x: 0.42678574, y: 3.7954545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5d1d3b02c9f0a4d9fb81bfc8d76caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10007
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 237
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 0.681579, y: 2.4558823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77be2bf743c0242a65d24b8609958a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10008
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 239
+        width: 17
+        height: 15
+      alignment: 9
+      pivot: {x: 1.0558825, y: 2.7833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faf37f18bfee7c42bea805f79bbae3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10009
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 243
+        width: 26
+        height: 11
+      alignment: 9
+      pivot: {x: 1.1903846, y: 3.7954545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e49f110494fca24fbd78b24674910f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10010
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 1.6975, y: 1.3046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2ac0bf3d2d6884f94d7428332dff66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10011
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 49
+        height: 16
+      alignment: 9
+      pivot: {x: 0.6316327, y: 2.609375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0910462d337c64249a7c69736b26202b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10012
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 202
+        width: 55
+        height: 18
+      alignment: 9
+      pivot: {x: 0.29000002, y: 2.3194444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c223ae4b5e34c45827d1553b3f35c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10013
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 183
+        width: 47
+        height: 37
+      alignment: 9
+      pivot: {x: -0.17127658, y: 1.1283784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e3326e9e1ae4b4dbe25a456f3259f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10014
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 171
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: -1.35, y: 0.8520408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e586ee1e41a57864e9ba0f9718a9047e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10015
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 198
+        width: 42
+        height: 22
+      alignment: 9
+      pivot: {x: -0.21547617, y: 1.8977273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65d6150f4f006246951af859ac81c30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10016
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 155
+        width: 42
+        height: 14
+      alignment: 9
+      pivot: {x: -0.048809506, y: 2.982143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e737f3cf56f21c419e95c5c9441be56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10017
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 34
+        height: 19
+      alignment: 9
+      pivot: {x: -0.03088233, y: 2.1973684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db35f0b3f4c7fc43b19b8aff8b6afe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10018
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 143
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.0886364, y: 1.6057693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aec2d5daa096514896c7979b5d393c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10019
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 146
+        width: 17
+        height: 23
+      alignment: 9
+      pivot: {x: 0.23235299, y: 1.8152174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024210abc04c3d24499fa51a947b15bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10020
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 149
+        width: 11
+        height: 20
+      alignment: 9
+      pivot: {x: 0.2681819, y: 2.0875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f8d5d7874e21b49bd5e527f7c290d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10021
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 154
+        width: 8
+        height: 15
+      alignment: 9
+      pivot: {x: 0.4937501, y: 2.7833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fea7cf21b76db408bc63273f4ef18e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10022
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 157
+        width: 5
+        height: 12
+      alignment: 9
+      pivot: {x: 0.39000016, y: 3.4791667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff8512db11d0f940965b39611e489c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10023
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 162
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.32500014, y: 5.964286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea27014715c98054da339a06f5af4d5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10024
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 126
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5443182, y: 0.9709302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cf061777c047c419aac837b1cf2e7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10025
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 64
+        height: 55
+      alignment: 9
+      pivot: {x: 0.49921876, y: 0.7590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c826aed76fca6489f323b20274d8b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10026
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 54
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5546296, y: 0.9488636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0e62353788f6b429e6bd9c6e80e0bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10027
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 86
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: 0.59404767, y: 1.0986842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb73486b9aef8045bda03165b342bc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 1 instance 10028
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 124
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: NaN, y: NaN}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419a2e7aeca245f4dbc7fdd41af018e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c6be2dba787059346b175e92b66b60ff
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
