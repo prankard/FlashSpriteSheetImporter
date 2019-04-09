@@ -21,8 +21,8 @@ Unity Instructions
     – Warning: This function can overwrite previously generated elements without notice.
 • Finally, press 'Import Sprites'.
 
-For more details check out the video (previous version of the tool):
-https://www.youtube.com/watch?v=p9Uq_5pG4sU
+For more details check out the video:
+https://www.youtube.com/watch?v=zcgmO7sWdWk
 
 
 # Credits #
