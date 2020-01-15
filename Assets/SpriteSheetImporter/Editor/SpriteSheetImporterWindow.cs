@@ -97,7 +97,6 @@ namespace Prankard.FlashSpriteSheetImporter
                     {
                         errorMessage = "Cannot convert sprite sheet when it's not it's original size. It's original size is '" + size.x + "x" + size.y + "' and build size is '" + spriteSheet.width + "x" + spriteSheet.height + "'. You can change the texture size to it's original size, import sprites and then change the texture size back.";
                         Debug.LogWarning(errorMessage);
-                        //Debug.LogWarning("Cannot convert sprite sheet when it's not it's original size. It's original size is '" + size.x +"x" + size.y+"' and build size is '" + spriteSheet.width + "x" + spriteSheet.height + "'. You can change the texture size to it's original size, import sprites and then change the texture size back.");
                         return;
                     }
 
