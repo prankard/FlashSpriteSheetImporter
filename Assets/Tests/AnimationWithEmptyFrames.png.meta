@@ -1,7 +1,33 @@
 fileFormatVersion: 2
 guid: 1d9f7a799fdb46940843e3d5534173b3
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: AnimationWithEmptyFrames0000
+    21300002: AnimationWithEmptyFrames0001
+    21300004: AnimationWithEmptyFrames0002
+    21300006: AnimationWithEmptyFrames0003
+    21300008: AnimationWithEmptyFrames0004
+    21300010: AnimationWithEmptyFrames0005
+    21300012: AnimationWithEmptyFrames0006
+    21300014: AnimationWithEmptyFrames0007
+    21300016: AnimationWithEmptyFrames0008
+    21300018: AnimationWithEmptyFrames0009
+    21300020: AnimationWithEmptyFrames0010
+    21300022: AnimationWithEmptyFrames0011
+    21300024: AnimationWithEmptyFrames0012
+    21300026: AnimationWithEmptyFrames0013
+    21300028: AnimationWithEmptyFrames0014
+    21300030: AnimationWithEmptyFrames0015
+    21300032: AnimationWithEmptyFrames0016
+    21300034: AnimationWithEmptyFrames0017
+    21300036: AnimationWithEmptyFrames0018
+    21300038: AnimationWithEmptyFrames0019
+    21300040: AnimationWithEmptyFrames0020
+    21300042: AnimationWithEmptyFrames0021
+    21300044: AnimationWithEmptyFrames0022
+    21300046: AnimationWithEmptyFrames0023
+    21300048: AnimationWithEmptyFrames0024
+    21300050: AnimationWithEmptyFrames0025
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +97,527 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028f67e2e8c81e444bd7a42261a8480b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0001
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 207
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.61702126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259c5badc48bc474c884674c240a683e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0002
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 209
+        width: 35
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.73333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b83d31dc668ed1458409d7ad248dc11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0003
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 211
+        width: 27
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.8604651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0827ad41733e00044be5730fda4eaf5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0004
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 211
+        width: 20
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9302326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1bcb2f6acda5e499ab390157768abd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0005
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 254
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1200e030174dc4598ac77ca7a76969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0006
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 254
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f94b1a61c39074682b6f35c42aa945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf258e8203afa479532fcd6c167350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0008
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 207
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.40425533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3631dfb47e526a945861bf7c0bc6fc83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0009
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 35
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.2888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adc4cf6f3ed55043befbd6ddb05b8bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0010
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 27
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.1627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b581a515d49d54e950628e436c6140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0011
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 158
+        width: 20
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94793ddb44c9a53448a8066b2355857c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0012
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 202
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74498c75618edd4aaf7fa0be8d11b3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0013
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 202
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b9159142d4d0c49843445d0c49522d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0014
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07402040292c854a8c0c326cf8344c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0015
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 159
+        width: 47
+        height: 43
+      alignment: 9
+      pivot: {x: 0.38297874, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6138a65adee63694ca7af3cee5c5d372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0016
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 167
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.26666668, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2460f498507cc3d4690cf1db3e178ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0017
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 175
+        width: 43
+        height: 27
+      alignment: 9
+      pivot: {x: 0.13953489, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc9dc792158cfa4a9169aaa757a59b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0018
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 135
+        width: 43
+        height: 20
+      alignment: 9
+      pivot: {x: 0.069767445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc8b0bd6d1bb6745bad277adc023e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0019
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 155
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e4ecb29e0767b4482b4cac3473637f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0020
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 155
+        width: 0
+        height: 0
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dbe03040ec59d469c3d4127ceb4e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0021
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60286265cba39af45b36319e7d2e4363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0022
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 112
+        width: 47
+        height: 43
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348d509f1a267a4cb1f4560bcce9f22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0023
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 120
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7111111, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30343e090c706f34a87182677aec13bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0024
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 43
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8372093, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa341a03ade22b84a902fac73bc9af22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationWithEmptyFrames0025
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 135
+        width: 44
+        height: 20
+      alignment: 9
+      pivot: {x: 0.90909094, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701df07fee76d22468037ac6280b2ee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

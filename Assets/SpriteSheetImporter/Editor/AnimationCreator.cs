@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Globalization;
 using System.Linq;
+using UnityEditor.Animations;
 
 /// <summary>
 /// Animation Creator, a helpful static class for generating animation based on tilesheets
@@ -23,14 +24,17 @@ namespace Prankard.FlashSpriteSheetImporter
             public Sprite[] sprites;
         }
 
-        public static void GenerateAnimation(Texture2D texture, float fps, bool generateGameObject)
+        public static void GenerateAnimation(Texture2D texture, float fps, bool createAnimationController, bool generateGameObject)
         {
             var assetPath = AssetDatabase.GetAssetPath(texture);
-            GenerateAnimation(assetPath, fps, generateGameObject);
+            GenerateAnimation(assetPath, fps, createAnimationController, generateGameObject);
         }
 
-        public static void GenerateAnimation(string spriteSheetPath, float fps, bool generateGameObject)
+        public static void GenerateAnimation(string spriteSheetPath, float fps, bool createAnimationController, bool generateGameObject)
         {
+            if (generateGameObject)
+                createAnimationController = true;
+
             string filename = Path.GetFileNameWithoutExtension(spriteSheetPath);
             string directoryPath = Path.GetDirectoryName(spriteSheetPath);
             string pathNoExtension = Path.Combine(Path.GetDirectoryName(spriteSheetPath), filename);
@@ -38,27 +42,38 @@ namespace Prankard.FlashSpriteSheetImporter
             var objects = AssetDatabase.LoadAllAssetsAtPath(spriteSheetPath);
             var sprites = objects.Where(q => q is Sprite).Cast<Sprite>().ToArray();
 
-            var controller = UnityEditor.Animations.AnimatorController.CreateAnimatorControllerAtPath(pathNoExtension + "-Generated" + ".controller"); //Added "-Generated" to reduce overwrite risk
-            var rootStateMachine = controller.layers[0].stateMachine;
-
             //subfolder creation to reduce overwrite risk of manualy created animations:
             string subdirectoryPath = Path.Combine(directoryPath, "Animations-Generated");
             if(!AssetDatabase.IsValidFolder(subdirectoryPath))
             {
-                AssetDatabase.CreateFolder(directoryPath, "Animations-Generated"); 
+                AssetDatabase.CreateFolder(directoryPath, "Animations-Generated");
             }
 
+            // Create the AnimatorController
+            AnimatorStateMachine rootStateMachine = null;
+            AnimatorController controller = null;
+            if (createAnimationController)
+            {
+                controller = UnityEditor.Animations.AnimatorController.CreateAnimatorControllerAtPath(pathNoExtension + "-Generated" + ".controller"); //Added "-Generated" to reduce overwrite risk
+                rootStateMachine = controller.layers[0].stateMachine;
+            }
+
+            // Create the AnimationClips (and push to controller)
             var animations = GetAnimationSequence(sprites, fps);
             foreach (SpriteSheetAnimationData spriteAnimation in animations)
             {
                 AnimationClip clip = CreateAnimationClip(spriteAnimation, subdirectoryPath); //Changed to subdirectoryPath to reduce overwrite risk
+
+                if (rootStateMachine == null)
+                    continue;
 
                 var state = rootStateMachine.AddState(filename);
                 state.name = spriteAnimation.name;
                 state.motion = clip;
             }
 
-            if (generateGameObject)
+            // Create the GameObject
+            if (controller != null && generateGameObject)
             {
                 string gameObjectName = filename + "-Generated";
 
