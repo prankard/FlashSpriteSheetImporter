@@ -162,13 +162,15 @@ namespace Prankard.FlashSpriteSheetImporter
 				importer.textureType = TextureImporterType.Sprite;
 				importer.spriteImportMode = SpriteImportMode.Multiple;
 
-				//The following code is broken when spritesheet already exists (version 2019.1+):
-				/*
-                AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
+                var guid = AssetDatabase.AssetPathToGUID(assetPath);
+                if (string.IsNullOrEmpty(guid))
+                {
+                    //The following code is broken when spritesheet already exists (version 2019.1+):
+                    AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
 
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
-                */
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
+                }
 
                 //The following replacement code works when importing and reimporting:
                 EditorUtility.SetDirty ( importer );
