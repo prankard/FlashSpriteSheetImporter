@@ -33,7 +33,8 @@ The Whitespace Trimming and XML Pivot implementation were added by Jonathan Trem
 
 # Version History #
 
-Version 1.0.5 - Added update for animation clip generation Mar 24, 2019
+Version 1.0.6 - Changed import technique for Unity 2019.1+ compatibility. Jan 15, 2020
+Version 1.0.5 - Added update for animation clip generation. Mar 24, 2019
 Version 1.0.4 - Added support for empty frames. Mar 21, 2019
 Version 1.0.3 - Added MovieClip Alignment and XML Pivot functions. Mar 2, 2019
 Version 1.0.2 - Added custom pivot in sprites. Oct 20, 2017

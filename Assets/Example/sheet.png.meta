@@ -1,304 +1,891 @@
 fileFormatVersion: 2
 guid: fde58d479ab984a47bb4c470453b1831
-timeCreated: 1506250228
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: beam0.png
-    21300002: beam1.png
-    21300004: beam2.png
-    21300006: beam3.png
-    21300008: beam4.png
-    21300010: beam5.png
-    21300012: beam6.png
-    21300014: beamLong1.png
-    21300016: beamLong2.png
-    21300018: bold_silver.png
-    21300020: bolt_bronze.png
-    21300022: bolt_gold.png
-    21300024: buttonBlue.png
-    21300026: buttonGreen.png
-    21300028: buttonRed.png
-    21300030: buttonYellow.png
-    21300032: cockpitBlue_0.png
-    21300034: cockpitBlue_1.png
-    21300036: cockpitBlue_2.png
-    21300038: cockpitBlue_3.png
-    21300040: cockpitBlue_4.png
-    21300042: cockpitBlue_5.png
-    21300044: cockpitBlue_6.png
-    21300046: cockpitBlue_7.png
-    21300048: cockpitGreen_0.png
-    21300050: cockpitGreen_1.png
-    21300052: cockpitGreen_2.png
-    21300054: cockpitGreen_3.png
-    21300056: cockpitGreen_4.png
-    21300058: cockpitGreen_5.png
-    21300060: cockpitGreen_6.png
-    21300062: cockpitGreen_7.png
-    21300064: cockpitRed_0.png
-    21300066: cockpitRed_1.png
-    21300068: cockpitRed_2.png
-    21300070: cockpitRed_3.png
-    21300072: cockpitRed_4.png
-    21300074: cockpitRed_5.png
-    21300076: cockpitRed_6.png
-    21300078: cockpitRed_7.png
-    21300080: cockpitYellow_0.png
-    21300082: cockpitYellow_1.png
-    21300084: cockpitYellow_2.png
-    21300086: cockpitYellow_3.png
-    21300088: cockpitYellow_4.png
-    21300090: cockpitYellow_5.png
-    21300092: cockpitYellow_6.png
-    21300094: cockpitYellow_7.png
-    21300096: cursor.png
-    21300098: enemyBlack1.png
-    21300100: enemyBlack2.png
-    21300102: enemyBlack3.png
-    21300104: enemyBlack4.png
-    21300106: enemyBlack5.png
-    21300108: enemyBlue1.png
-    21300110: enemyBlue2.png
-    21300112: enemyBlue3.png
-    21300114: enemyBlue4.png
-    21300116: enemyBlue5.png
-    21300118: enemyGreen1.png
-    21300120: enemyGreen2.png
-    21300122: enemyGreen3.png
-    21300124: enemyGreen4.png
-    21300126: enemyGreen5.png
-    21300128: enemyRed1.png
-    21300130: enemyRed2.png
-    21300132: enemyRed3.png
-    21300134: enemyRed4.png
-    21300136: enemyRed5.png
-    21300138: engine1.png
-    21300140: engine2.png
-    21300142: engine3.png
-    21300144: engine4.png
-    21300146: engine5.png
-    21300148: fire00.png
-    21300150: fire01.png
-    21300152: fire02.png
-    21300154: fire03.png
-    21300156: fire04.png
-    21300158: fire05.png
-    21300160: fire06.png
-    21300162: fire07.png
-    21300164: fire08.png
-    21300166: fire09.png
-    21300168: fire10.png
-    21300170: fire11.png
-    21300172: fire12.png
-    21300174: fire13.png
-    21300176: fire14.png
-    21300178: fire15.png
-    21300180: fire16.png
-    21300182: fire17.png
-    21300184: fire18.png
-    21300186: fire19.png
-    21300188: gun00.png
-    21300190: gun01.png
-    21300192: gun02.png
-    21300194: gun03.png
-    21300196: gun04.png
-    21300198: gun05.png
-    21300200: gun06.png
-    21300202: gun07.png
-    21300204: gun08.png
-    21300206: gun09.png
-    21300208: gun10.png
-    21300210: laserBlue01.png
-    21300212: laserBlue02.png
-    21300214: laserBlue03.png
-    21300216: laserBlue04.png
-    21300218: laserBlue05.png
-    21300220: laserBlue06.png
-    21300222: laserBlue07.png
-    21300224: laserBlue08.png
-    21300226: laserBlue09.png
-    21300228: laserBlue10.png
-    21300230: laserBlue11.png
-    21300232: laserBlue12.png
-    21300234: laserBlue13.png
-    21300236: laserBlue14.png
-    21300238: laserBlue15.png
-    21300240: laserBlue16.png
-    21300242: laserGreen01.png
-    21300244: laserGreen02.png
-    21300246: laserGreen03.png
-    21300248: laserGreen04.png
-    21300250: laserGreen05.png
-    21300252: laserGreen06.png
-    21300254: laserGreen07.png
-    21300256: laserGreen08.png
-    21300258: laserGreen09.png
-    21300260: laserGreen10.png
-    21300262: laserGreen11.png
-    21300264: laserGreen12.png
-    21300266: laserGreen13.png
-    21300268: laserGreen14.png
-    21300270: laserGreen15.png
-    21300272: laserGreen16.png
-    21300274: laserRed01.png
-    21300276: laserRed02.png
-    21300278: laserRed03.png
-    21300280: laserRed04.png
-    21300282: laserRed05.png
-    21300284: laserRed06.png
-    21300286: laserRed07.png
-    21300288: laserRed08.png
-    21300290: laserRed09.png
-    21300292: laserRed10.png
-    21300294: laserRed11.png
-    21300296: laserRed12.png
-    21300298: laserRed13.png
-    21300300: laserRed14.png
-    21300302: laserRed15.png
-    21300304: laserRed16.png
-    21300306: meteorBrown_big1.png
-    21300308: meteorBrown_big2.png
-    21300310: meteorBrown_big3.png
-    21300312: meteorBrown_big4.png
-    21300314: meteorBrown_med1.png
-    21300316: meteorBrown_med3.png
-    21300318: meteorBrown_small1.png
-    21300320: meteorBrown_small2.png
-    21300322: meteorBrown_tiny1.png
-    21300324: meteorBrown_tiny2.png
-    21300326: meteorGrey_big1.png
-    21300328: meteorGrey_big2.png
-    21300330: meteorGrey_big3.png
-    21300332: meteorGrey_big4.png
-    21300334: meteorGrey_med1.png
-    21300336: meteorGrey_med2.png
-    21300338: meteorGrey_small1.png
-    21300340: meteorGrey_small2.png
-    21300342: meteorGrey_tiny1.png
-    21300344: meteorGrey_tiny2.png
-    21300346: numeral0.png
-    21300348: numeral1.png
-    21300350: numeral2.png
-    21300352: numeral3.png
-    21300354: numeral4.png
-    21300356: numeral5.png
-    21300358: numeral6.png
-    21300360: numeral7.png
-    21300362: numeral8.png
-    21300364: numeral9.png
-    21300366: numeralX.png
-    21300368: pill_blue.png
-    21300370: pill_green.png
-    21300372: pill_red.png
-    21300374: pill_yellow.png
-    21300376: playerLife1_blue.png
-    21300378: playerLife1_green.png
-    21300380: playerLife1_orange.png
-    21300382: playerLife1_red.png
-    21300384: playerLife2_blue.png
-    21300386: playerLife2_green.png
-    21300388: playerLife2_orange.png
-    21300390: playerLife2_red.png
-    21300392: playerLife3_blue.png
-    21300394: playerLife3_green.png
-    21300396: playerLife3_orange.png
-    21300398: playerLife3_red.png
-    21300400: playerShip1_blue.png
-    21300402: playerShip1_damage1.png
-    21300404: playerShip1_damage2.png
-    21300406: playerShip1_damage3.png
-    21300408: playerShip1_green.png
-    21300410: playerShip1_orange.png
-    21300412: playerShip1_red.png
-    21300414: playerShip2_blue.png
-    21300416: playerShip2_damage1.png
-    21300418: playerShip2_damage2.png
-    21300420: playerShip2_damage3.png
-    21300422: playerShip2_green.png
-    21300424: playerShip2_orange.png
-    21300426: playerShip2_red.png
-    21300428: playerShip3_blue.png
-    21300430: playerShip3_damage1.png
-    21300432: playerShip3_damage2.png
-    21300434: playerShip3_damage3.png
-    21300436: playerShip3_green.png
-    21300438: playerShip3_orange.png
-    21300440: playerShip3_red.png
-    21300442: powerupBlue.png
-    21300444: powerupBlue_bolt.png
-    21300446: powerupBlue_shield.png
-    21300448: powerupBlue_star.png
-    21300450: powerupGreen.png
-    21300452: powerupGreen_bolt.png
-    21300454: powerupGreen_shield.png
-    21300456: powerupGreen_star.png
-    21300458: powerupRed.png
-    21300460: powerupRed_bolt.png
-    21300462: powerupRed_shield.png
-    21300464: powerupRed_star.png
-    21300466: powerupYellow.png
-    21300468: powerupYellow_bolt.png
-    21300470: powerupYellow_shield.png
-    21300472: powerupYellow_star.png
-    21300474: scratch1.png
-    21300476: scratch2.png
-    21300478: scratch3.png
-    21300480: shield1.png
-    21300482: shield2.png
-    21300484: shield3.png
-    21300486: shield_bronze.png
-    21300488: shield_gold.png
-    21300490: shield_silver.png
-    21300492: speed.png
-    21300494: star1.png
-    21300496: star2.png
-    21300498: star3.png
-    21300500: star_bronze.png
-    21300502: star_gold.png
-    21300504: star_silver.png
-    21300506: things_bronze.png
-    21300508: things_gold.png
-    21300510: things_silver.png
-    21300512: turretBase_big.png
-    21300514: turretBase_small.png
-    21300516: ufoBlue.png
-    21300518: ufoGreen.png
-    21300520: ufoRed.png
-    21300522: ufoYellow.png
-    21300524: wingBlue_0.png
-    21300526: wingBlue_1.png
-    21300528: wingBlue_2.png
-    21300530: wingBlue_3.png
-    21300532: wingBlue_4.png
-    21300534: wingBlue_5.png
-    21300536: wingBlue_6.png
-    21300538: wingBlue_7.png
-    21300540: wingGreen_0.png
-    21300542: wingGreen_1.png
-    21300544: wingGreen_2.png
-    21300546: wingGreen_3.png
-    21300548: wingGreen_4.png
-    21300550: wingGreen_5.png
-    21300552: wingGreen_6.png
-    21300554: wingGreen_7.png
-    21300556: wingRed_0.png
-    21300558: wingRed_1.png
-    21300560: wingRed_2.png
-    21300562: wingRed_3.png
-    21300564: wingRed_4.png
-    21300566: wingRed_5.png
-    21300568: wingRed_6.png
-    21300570: wingRed_7.png
-    21300572: wingYellow_0.png
-    21300574: wingYellow_1.png
-    21300576: wingYellow_2.png
-    21300578: wingYellow_3.png
-    21300580: wingYellow_4.png
-    21300582: wingYellow_5.png
-    21300584: wingYellow_6.png
-    21300586: wingYellow_7.png
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: beam0.png
+  - first:
+      213: 21300002
+    second: beam1.png
+  - first:
+      213: 21300004
+    second: beam2.png
+  - first:
+      213: 21300006
+    second: beam3.png
+  - first:
+      213: 21300008
+    second: beam4.png
+  - first:
+      213: 21300010
+    second: beam5.png
+  - first:
+      213: 21300012
+    second: beam6.png
+  - first:
+      213: 21300014
+    second: beamLong1.png
+  - first:
+      213: 21300016
+    second: beamLong2.png
+  - first:
+      213: 21300018
+    second: bold_silver.png
+  - first:
+      213: 21300020
+    second: bolt_bronze.png
+  - first:
+      213: 21300022
+    second: bolt_gold.png
+  - first:
+      213: 21300024
+    second: buttonBlue.png
+  - first:
+      213: 21300026
+    second: buttonGreen.png
+  - first:
+      213: 21300028
+    second: buttonRed.png
+  - first:
+      213: 21300030
+    second: buttonYellow.png
+  - first:
+      213: 21300032
+    second: cockpitBlue_0.png
+  - first:
+      213: 21300034
+    second: cockpitBlue_1.png
+  - first:
+      213: 21300036
+    second: cockpitBlue_2.png
+  - first:
+      213: 21300038
+    second: cockpitBlue_3.png
+  - first:
+      213: 21300040
+    second: cockpitBlue_4.png
+  - first:
+      213: 21300042
+    second: cockpitBlue_5.png
+  - first:
+      213: 21300044
+    second: cockpitBlue_6.png
+  - first:
+      213: 21300046
+    second: cockpitBlue_7.png
+  - first:
+      213: 21300048
+    second: cockpitGreen_0.png
+  - first:
+      213: 21300050
+    second: cockpitGreen_1.png
+  - first:
+      213: 21300052
+    second: cockpitGreen_2.png
+  - first:
+      213: 21300054
+    second: cockpitGreen_3.png
+  - first:
+      213: 21300056
+    second: cockpitGreen_4.png
+  - first:
+      213: 21300058
+    second: cockpitGreen_5.png
+  - first:
+      213: 21300060
+    second: cockpitGreen_6.png
+  - first:
+      213: 21300062
+    second: cockpitGreen_7.png
+  - first:
+      213: 21300064
+    second: cockpitRed_0.png
+  - first:
+      213: 21300066
+    second: cockpitRed_1.png
+  - first:
+      213: 21300068
+    second: cockpitRed_2.png
+  - first:
+      213: 21300070
+    second: cockpitRed_3.png
+  - first:
+      213: 21300072
+    second: cockpitRed_4.png
+  - first:
+      213: 21300074
+    second: cockpitRed_5.png
+  - first:
+      213: 21300076
+    second: cockpitRed_6.png
+  - first:
+      213: 21300078
+    second: cockpitRed_7.png
+  - first:
+      213: 21300080
+    second: cockpitYellow_0.png
+  - first:
+      213: 21300082
+    second: cockpitYellow_1.png
+  - first:
+      213: 21300084
+    second: cockpitYellow_2.png
+  - first:
+      213: 21300086
+    second: cockpitYellow_3.png
+  - first:
+      213: 21300088
+    second: cockpitYellow_4.png
+  - first:
+      213: 21300090
+    second: cockpitYellow_5.png
+  - first:
+      213: 21300092
+    second: cockpitYellow_6.png
+  - first:
+      213: 21300094
+    second: cockpitYellow_7.png
+  - first:
+      213: 21300096
+    second: cursor.png
+  - first:
+      213: 21300098
+    second: enemyBlack1.png
+  - first:
+      213: 21300100
+    second: enemyBlack2.png
+  - first:
+      213: 21300102
+    second: enemyBlack3.png
+  - first:
+      213: 21300104
+    second: enemyBlack4.png
+  - first:
+      213: 21300106
+    second: enemyBlack5.png
+  - first:
+      213: 21300108
+    second: enemyBlue1.png
+  - first:
+      213: 21300110
+    second: enemyBlue2.png
+  - first:
+      213: 21300112
+    second: enemyBlue3.png
+  - first:
+      213: 21300114
+    second: enemyBlue4.png
+  - first:
+      213: 21300116
+    second: enemyBlue5.png
+  - first:
+      213: 21300118
+    second: enemyGreen1.png
+  - first:
+      213: 21300120
+    second: enemyGreen2.png
+  - first:
+      213: 21300122
+    second: enemyGreen3.png
+  - first:
+      213: 21300124
+    second: enemyGreen4.png
+  - first:
+      213: 21300126
+    second: enemyGreen5.png
+  - first:
+      213: 21300128
+    second: enemyRed1.png
+  - first:
+      213: 21300130
+    second: enemyRed2.png
+  - first:
+      213: 21300132
+    second: enemyRed3.png
+  - first:
+      213: 21300134
+    second: enemyRed4.png
+  - first:
+      213: 21300136
+    second: enemyRed5.png
+  - first:
+      213: 21300138
+    second: engine1.png
+  - first:
+      213: 21300140
+    second: engine2.png
+  - first:
+      213: 21300142
+    second: engine3.png
+  - first:
+      213: 21300144
+    second: engine4.png
+  - first:
+      213: 21300146
+    second: engine5.png
+  - first:
+      213: 21300148
+    second: fire00.png
+  - first:
+      213: 21300150
+    second: fire01.png
+  - first:
+      213: 21300152
+    second: fire02.png
+  - first:
+      213: 21300154
+    second: fire03.png
+  - first:
+      213: 21300156
+    second: fire04.png
+  - first:
+      213: 21300158
+    second: fire05.png
+  - first:
+      213: 21300160
+    second: fire06.png
+  - first:
+      213: 21300162
+    second: fire07.png
+  - first:
+      213: 21300164
+    second: fire08.png
+  - first:
+      213: 21300166
+    second: fire09.png
+  - first:
+      213: 21300168
+    second: fire10.png
+  - first:
+      213: 21300170
+    second: fire11.png
+  - first:
+      213: 21300172
+    second: fire12.png
+  - first:
+      213: 21300174
+    second: fire13.png
+  - first:
+      213: 21300176
+    second: fire14.png
+  - first:
+      213: 21300178
+    second: fire15.png
+  - first:
+      213: 21300180
+    second: fire16.png
+  - first:
+      213: 21300182
+    second: fire17.png
+  - first:
+      213: 21300184
+    second: fire18.png
+  - first:
+      213: 21300186
+    second: fire19.png
+  - first:
+      213: 21300188
+    second: gun00.png
+  - first:
+      213: 21300190
+    second: gun01.png
+  - first:
+      213: 21300192
+    second: gun02.png
+  - first:
+      213: 21300194
+    second: gun03.png
+  - first:
+      213: 21300196
+    second: gun04.png
+  - first:
+      213: 21300198
+    second: gun05.png
+  - first:
+      213: 21300200
+    second: gun06.png
+  - first:
+      213: 21300202
+    second: gun07.png
+  - first:
+      213: 21300204
+    second: gun08.png
+  - first:
+      213: 21300206
+    second: gun09.png
+  - first:
+      213: 21300208
+    second: gun10.png
+  - first:
+      213: 21300210
+    second: laserBlue01.png
+  - first:
+      213: 21300212
+    second: laserBlue02.png
+  - first:
+      213: 21300214
+    second: laserBlue03.png
+  - first:
+      213: 21300216
+    second: laserBlue04.png
+  - first:
+      213: 21300218
+    second: laserBlue05.png
+  - first:
+      213: 21300220
+    second: laserBlue06.png
+  - first:
+      213: 21300222
+    second: laserBlue07.png
+  - first:
+      213: 21300224
+    second: laserBlue08.png
+  - first:
+      213: 21300226
+    second: laserBlue09.png
+  - first:
+      213: 21300228
+    second: laserBlue10.png
+  - first:
+      213: 21300230
+    second: laserBlue11.png
+  - first:
+      213: 21300232
+    second: laserBlue12.png
+  - first:
+      213: 21300234
+    second: laserBlue13.png
+  - first:
+      213: 21300236
+    second: laserBlue14.png
+  - first:
+      213: 21300238
+    second: laserBlue15.png
+  - first:
+      213: 21300240
+    second: laserBlue16.png
+  - first:
+      213: 21300242
+    second: laserGreen01.png
+  - first:
+      213: 21300244
+    second: laserGreen02.png
+  - first:
+      213: 21300246
+    second: laserGreen03.png
+  - first:
+      213: 21300248
+    second: laserGreen04.png
+  - first:
+      213: 21300250
+    second: laserGreen05.png
+  - first:
+      213: 21300252
+    second: laserGreen06.png
+  - first:
+      213: 21300254
+    second: laserGreen07.png
+  - first:
+      213: 21300256
+    second: laserGreen08.png
+  - first:
+      213: 21300258
+    second: laserGreen09.png
+  - first:
+      213: 21300260
+    second: laserGreen10.png
+  - first:
+      213: 21300262
+    second: laserGreen11.png
+  - first:
+      213: 21300264
+    second: laserGreen12.png
+  - first:
+      213: 21300266
+    second: laserGreen13.png
+  - first:
+      213: 21300268
+    second: laserGreen14.png
+  - first:
+      213: 21300270
+    second: laserGreen15.png
+  - first:
+      213: 21300272
+    second: laserGreen16.png
+  - first:
+      213: 21300274
+    second: laserRed01.png
+  - first:
+      213: 21300276
+    second: laserRed02.png
+  - first:
+      213: 21300278
+    second: laserRed03.png
+  - first:
+      213: 21300280
+    second: laserRed04.png
+  - first:
+      213: 21300282
+    second: laserRed05.png
+  - first:
+      213: 21300284
+    second: laserRed06.png
+  - first:
+      213: 21300286
+    second: laserRed07.png
+  - first:
+      213: 21300288
+    second: laserRed08.png
+  - first:
+      213: 21300290
+    second: laserRed09.png
+  - first:
+      213: 21300292
+    second: laserRed10.png
+  - first:
+      213: 21300294
+    second: laserRed11.png
+  - first:
+      213: 21300296
+    second: laserRed12.png
+  - first:
+      213: 21300298
+    second: laserRed13.png
+  - first:
+      213: 21300300
+    second: laserRed14.png
+  - first:
+      213: 21300302
+    second: laserRed15.png
+  - first:
+      213: 21300304
+    second: laserRed16.png
+  - first:
+      213: 21300306
+    second: meteorBrown_big1.png
+  - first:
+      213: 21300308
+    second: meteorBrown_big2.png
+  - first:
+      213: 21300310
+    second: meteorBrown_big3.png
+  - first:
+      213: 21300312
+    second: meteorBrown_big4.png
+  - first:
+      213: 21300314
+    second: meteorBrown_med1.png
+  - first:
+      213: 21300316
+    second: meteorBrown_med3.png
+  - first:
+      213: 21300318
+    second: meteorBrown_small1.png
+  - first:
+      213: 21300320
+    second: meteorBrown_small2.png
+  - first:
+      213: 21300322
+    second: meteorBrown_tiny1.png
+  - first:
+      213: 21300324
+    second: meteorBrown_tiny2.png
+  - first:
+      213: 21300326
+    second: meteorGrey_big1.png
+  - first:
+      213: 21300328
+    second: meteorGrey_big2.png
+  - first:
+      213: 21300330
+    second: meteorGrey_big3.png
+  - first:
+      213: 21300332
+    second: meteorGrey_big4.png
+  - first:
+      213: 21300334
+    second: meteorGrey_med1.png
+  - first:
+      213: 21300336
+    second: meteorGrey_med2.png
+  - first:
+      213: 21300338
+    second: meteorGrey_small1.png
+  - first:
+      213: 21300340
+    second: meteorGrey_small2.png
+  - first:
+      213: 21300342
+    second: meteorGrey_tiny1.png
+  - first:
+      213: 21300344
+    second: meteorGrey_tiny2.png
+  - first:
+      213: 21300346
+    second: numeral0.png
+  - first:
+      213: 21300348
+    second: numeral1.png
+  - first:
+      213: 21300350
+    second: numeral2.png
+  - first:
+      213: 21300352
+    second: numeral3.png
+  - first:
+      213: 21300354
+    second: numeral4.png
+  - first:
+      213: 21300356
+    second: numeral5.png
+  - first:
+      213: 21300358
+    second: numeral6.png
+  - first:
+      213: 21300360
+    second: numeral7.png
+  - first:
+      213: 21300362
+    second: numeral8.png
+  - first:
+      213: 21300364
+    second: numeral9.png
+  - first:
+      213: 21300366
+    second: numeralX.png
+  - first:
+      213: 21300368
+    second: pill_blue.png
+  - first:
+      213: 21300370
+    second: pill_green.png
+  - first:
+      213: 21300372
+    second: pill_red.png
+  - first:
+      213: 21300374
+    second: pill_yellow.png
+  - first:
+      213: 21300376
+    second: playerLife1_blue.png
+  - first:
+      213: 21300378
+    second: playerLife1_green.png
+  - first:
+      213: 21300380
+    second: playerLife1_orange.png
+  - first:
+      213: 21300382
+    second: playerLife1_red.png
+  - first:
+      213: 21300384
+    second: playerLife2_blue.png
+  - first:
+      213: 21300386
+    second: playerLife2_green.png
+  - first:
+      213: 21300388
+    second: playerLife2_orange.png
+  - first:
+      213: 21300390
+    second: playerLife2_red.png
+  - first:
+      213: 21300392
+    second: playerLife3_blue.png
+  - first:
+      213: 21300394
+    second: playerLife3_green.png
+  - first:
+      213: 21300396
+    second: playerLife3_orange.png
+  - first:
+      213: 21300398
+    second: playerLife3_red.png
+  - first:
+      213: 21300400
+    second: playerShip1_blue.png
+  - first:
+      213: 21300402
+    second: playerShip1_damage1.png
+  - first:
+      213: 21300404
+    second: playerShip1_damage2.png
+  - first:
+      213: 21300406
+    second: playerShip1_damage3.png
+  - first:
+      213: 21300408
+    second: playerShip1_green.png
+  - first:
+      213: 21300410
+    second: playerShip1_orange.png
+  - first:
+      213: 21300412
+    second: playerShip1_red.png
+  - first:
+      213: 21300414
+    second: playerShip2_blue.png
+  - first:
+      213: 21300416
+    second: playerShip2_damage1.png
+  - first:
+      213: 21300418
+    second: playerShip2_damage2.png
+  - first:
+      213: 21300420
+    second: playerShip2_damage3.png
+  - first:
+      213: 21300422
+    second: playerShip2_green.png
+  - first:
+      213: 21300424
+    second: playerShip2_orange.png
+  - first:
+      213: 21300426
+    second: playerShip2_red.png
+  - first:
+      213: 21300428
+    second: playerShip3_blue.png
+  - first:
+      213: 21300430
+    second: playerShip3_damage1.png
+  - first:
+      213: 21300432
+    second: playerShip3_damage2.png
+  - first:
+      213: 21300434
+    second: playerShip3_damage3.png
+  - first:
+      213: 21300436
+    second: playerShip3_green.png
+  - first:
+      213: 21300438
+    second: playerShip3_orange.png
+  - first:
+      213: 21300440
+    second: playerShip3_red.png
+  - first:
+      213: 21300442
+    second: powerupBlue.png
+  - first:
+      213: 21300444
+    second: powerupBlue_bolt.png
+  - first:
+      213: 21300446
+    second: powerupBlue_shield.png
+  - first:
+      213: 21300448
+    second: powerupBlue_star.png
+  - first:
+      213: 21300450
+    second: powerupGreen.png
+  - first:
+      213: 21300452
+    second: powerupGreen_bolt.png
+  - first:
+      213: 21300454
+    second: powerupGreen_shield.png
+  - first:
+      213: 21300456
+    second: powerupGreen_star.png
+  - first:
+      213: 21300458
+    second: powerupRed.png
+  - first:
+      213: 21300460
+    second: powerupRed_bolt.png
+  - first:
+      213: 21300462
+    second: powerupRed_shield.png
+  - first:
+      213: 21300464
+    second: powerupRed_star.png
+  - first:
+      213: 21300466
+    second: powerupYellow.png
+  - first:
+      213: 21300468
+    second: powerupYellow_bolt.png
+  - first:
+      213: 21300470
+    second: powerupYellow_shield.png
+  - first:
+      213: 21300472
+    second: powerupYellow_star.png
+  - first:
+      213: 21300474
+    second: scratch1.png
+  - first:
+      213: 21300476
+    second: scratch2.png
+  - first:
+      213: 21300478
+    second: scratch3.png
+  - first:
+      213: 21300480
+    second: shield1.png
+  - first:
+      213: 21300482
+    second: shield2.png
+  - first:
+      213: 21300484
+    second: shield3.png
+  - first:
+      213: 21300486
+    second: shield_bronze.png
+  - first:
+      213: 21300488
+    second: shield_gold.png
+  - first:
+      213: 21300490
+    second: shield_silver.png
+  - first:
+      213: 21300492
+    second: speed.png
+  - first:
+      213: 21300494
+    second: star1.png
+  - first:
+      213: 21300496
+    second: star2.png
+  - first:
+      213: 21300498
+    second: star3.png
+  - first:
+      213: 21300500
+    second: star_bronze.png
+  - first:
+      213: 21300502
+    second: star_gold.png
+  - first:
+      213: 21300504
+    second: star_silver.png
+  - first:
+      213: 21300506
+    second: things_bronze.png
+  - first:
+      213: 21300508
+    second: things_gold.png
+  - first:
+      213: 21300510
+    second: things_silver.png
+  - first:
+      213: 21300512
+    second: turretBase_big.png
+  - first:
+      213: 21300514
+    second: turretBase_small.png
+  - first:
+      213: 21300516
+    second: ufoBlue.png
+  - first:
+      213: 21300518
+    second: ufoGreen.png
+  - first:
+      213: 21300520
+    second: ufoRed.png
+  - first:
+      213: 21300522
+    second: ufoYellow.png
+  - first:
+      213: 21300524
+    second: wingBlue_0.png
+  - first:
+      213: 21300526
+    second: wingBlue_1.png
+  - first:
+      213: 21300528
+    second: wingBlue_2.png
+  - first:
+      213: 21300530
+    second: wingBlue_3.png
+  - first:
+      213: 21300532
+    second: wingBlue_4.png
+  - first:
+      213: 21300534
+    second: wingBlue_5.png
+  - first:
+      213: 21300536
+    second: wingBlue_6.png
+  - first:
+      213: 21300538
+    second: wingBlue_7.png
+  - first:
+      213: 21300540
+    second: wingGreen_0.png
+  - first:
+      213: 21300542
+    second: wingGreen_1.png
+  - first:
+      213: 21300544
+    second: wingGreen_2.png
+  - first:
+      213: 21300546
+    second: wingGreen_3.png
+  - first:
+      213: 21300548
+    second: wingGreen_4.png
+  - first:
+      213: 21300550
+    second: wingGreen_5.png
+  - first:
+      213: 21300552
+    second: wingGreen_6.png
+  - first:
+      213: 21300554
+    second: wingGreen_7.png
+  - first:
+      213: 21300556
+    second: wingRed_0.png
+  - first:
+      213: 21300558
+    second: wingRed_1.png
+  - first:
+      213: 21300560
+    second: wingRed_2.png
+  - first:
+      213: 21300562
+    second: wingRed_3.png
+  - first:
+      213: 21300564
+    second: wingRed_4.png
+  - first:
+      213: 21300566
+    second: wingRed_5.png
+  - first:
+      213: 21300568
+    second: wingRed_6.png
+  - first:
+      213: 21300570
+    second: wingRed_7.png
+  - first:
+      213: 21300572
+    second: wingYellow_0.png
+  - first:
+      213: 21300574
+    second: wingYellow_1.png
+  - first:
+      213: 21300576
+    second: wingYellow_2.png
+  - first:
+      213: 21300578
+    second: wingYellow_3.png
+  - first:
+      213: 21300580
+    second: wingYellow_4.png
+  - first:
+      213: 21300582
+    second: wingYellow_5.png
+  - first:
+      213: 21300584
+    second: wingYellow_6.png
+  - first:
+      213: 21300586
+    second: wingYellow_7.png
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -316,6 +903,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -326,7 +915,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -338,25 +927,31 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -374,6 +969,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam1.png
       rect:
@@ -388,6 +990,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam2.png
       rect:
@@ -402,6 +1011,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam3.png
       rect:
@@ -416,6 +1032,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam4.png
       rect:
@@ -430,6 +1053,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam5.png
       rect:
@@ -444,6 +1074,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beam6.png
       rect:
@@ -458,6 +1095,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beamLong1.png
       rect:
@@ -472,6 +1116,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: beamLong2.png
       rect:
@@ -486,6 +1137,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: bold_silver.png
       rect:
@@ -500,6 +1158,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: bolt_bronze.png
       rect:
@@ -514,6 +1179,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: bolt_gold.png
       rect:
@@ -528,6 +1200,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: buttonBlue.png
       rect:
@@ -542,6 +1221,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: buttonGreen.png
       rect:
@@ -556,6 +1242,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: buttonRed.png
       rect:
@@ -570,6 +1263,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: buttonYellow.png
       rect:
@@ -584,6 +1284,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_0.png
       rect:
@@ -598,6 +1305,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_1.png
       rect:
@@ -612,6 +1326,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_2.png
       rect:
@@ -626,6 +1347,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_3.png
       rect:
@@ -640,6 +1368,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_4.png
       rect:
@@ -654,6 +1389,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_5.png
       rect:
@@ -668,6 +1410,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_6.png
       rect:
@@ -682,6 +1431,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitBlue_7.png
       rect:
@@ -696,6 +1452,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_0.png
       rect:
@@ -710,6 +1473,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_1.png
       rect:
@@ -724,6 +1494,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_2.png
       rect:
@@ -738,6 +1515,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_3.png
       rect:
@@ -752,6 +1536,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_4.png
       rect:
@@ -766,6 +1557,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_5.png
       rect:
@@ -780,6 +1578,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_6.png
       rect:
@@ -794,6 +1599,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitGreen_7.png
       rect:
@@ -808,6 +1620,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_0.png
       rect:
@@ -822,6 +1641,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_1.png
       rect:
@@ -836,6 +1662,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_2.png
       rect:
@@ -850,6 +1683,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_3.png
       rect:
@@ -864,6 +1704,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_4.png
       rect:
@@ -878,6 +1725,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_5.png
       rect:
@@ -892,6 +1746,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_6.png
       rect:
@@ -906,6 +1767,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitRed_7.png
       rect:
@@ -920,6 +1788,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_0.png
       rect:
@@ -934,6 +1809,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_1.png
       rect:
@@ -948,6 +1830,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_2.png
       rect:
@@ -962,6 +1851,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_3.png
       rect:
@@ -976,6 +1872,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_4.png
       rect:
@@ -990,6 +1893,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_5.png
       rect:
@@ -1004,6 +1914,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_6.png
       rect:
@@ -1018,6 +1935,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cockpitYellow_7.png
       rect:
@@ -1032,6 +1956,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: cursor.png
       rect:
@@ -1046,6 +1977,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlack1.png
       rect:
@@ -1060,6 +1998,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlack2.png
       rect:
@@ -1074,6 +2019,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlack3.png
       rect:
@@ -1088,6 +2040,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlack4.png
       rect:
@@ -1102,6 +2061,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlack5.png
       rect:
@@ -1116,6 +2082,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlue1.png
       rect:
@@ -1130,6 +2103,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlue2.png
       rect:
@@ -1144,6 +2124,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlue3.png
       rect:
@@ -1158,6 +2145,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlue4.png
       rect:
@@ -1172,6 +2166,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyBlue5.png
       rect:
@@ -1186,6 +2187,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyGreen1.png
       rect:
@@ -1200,6 +2208,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyGreen2.png
       rect:
@@ -1214,6 +2229,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyGreen3.png
       rect:
@@ -1228,6 +2250,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyGreen4.png
       rect:
@@ -1242,6 +2271,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyGreen5.png
       rect:
@@ -1256,6 +2292,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyRed1.png
       rect:
@@ -1270,6 +2313,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyRed2.png
       rect:
@@ -1284,6 +2334,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyRed3.png
       rect:
@@ -1298,6 +2355,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyRed4.png
       rect:
@@ -1312,6 +2376,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: enemyRed5.png
       rect:
@@ -1326,6 +2397,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: engine1.png
       rect:
@@ -1340,6 +2418,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: engine2.png
       rect:
@@ -1354,6 +2439,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: engine3.png
       rect:
@@ -1368,6 +2460,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: engine4.png
       rect:
@@ -1382,6 +2481,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: engine5.png
       rect:
@@ -1396,6 +2502,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire00.png
       rect:
@@ -1410,6 +2523,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire01.png
       rect:
@@ -1424,6 +2544,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire02.png
       rect:
@@ -1438,6 +2565,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire03.png
       rect:
@@ -1452,6 +2586,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire04.png
       rect:
@@ -1466,6 +2607,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire05.png
       rect:
@@ -1480,6 +2628,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire06.png
       rect:
@@ -1494,6 +2649,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire07.png
       rect:
@@ -1508,6 +2670,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire08.png
       rect:
@@ -1522,6 +2691,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire09.png
       rect:
@@ -1536,6 +2712,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire10.png
       rect:
@@ -1550,6 +2733,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire11.png
       rect:
@@ -1564,6 +2754,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire12.png
       rect:
@@ -1578,6 +2775,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire13.png
       rect:
@@ -1592,6 +2796,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire14.png
       rect:
@@ -1606,6 +2817,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire15.png
       rect:
@@ -1620,6 +2838,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire16.png
       rect:
@@ -1634,6 +2859,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire17.png
       rect:
@@ -1648,6 +2880,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire18.png
       rect:
@@ -1662,6 +2901,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fire19.png
       rect:
@@ -1676,6 +2922,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun00.png
       rect:
@@ -1690,6 +2943,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun01.png
       rect:
@@ -1704,6 +2964,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun02.png
       rect:
@@ -1718,6 +2985,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun03.png
       rect:
@@ -1732,6 +3006,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun04.png
       rect:
@@ -1746,6 +3027,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun05.png
       rect:
@@ -1760,6 +3048,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun06.png
       rect:
@@ -1774,6 +3069,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun07.png
       rect:
@@ -1788,6 +3090,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun08.png
       rect:
@@ -1802,6 +3111,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun09.png
       rect:
@@ -1816,6 +3132,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun10.png
       rect:
@@ -1830,6 +3153,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue01.png
       rect:
@@ -1844,6 +3174,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue02.png
       rect:
@@ -1858,6 +3195,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue03.png
       rect:
@@ -1872,6 +3216,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue04.png
       rect:
@@ -1886,6 +3237,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue05.png
       rect:
@@ -1900,6 +3258,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue06.png
       rect:
@@ -1914,6 +3279,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue07.png
       rect:
@@ -1928,6 +3300,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue08.png
       rect:
@@ -1942,6 +3321,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue09.png
       rect:
@@ -1956,6 +3342,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue10.png
       rect:
@@ -1970,6 +3363,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue11.png
       rect:
@@ -1984,6 +3384,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue12.png
       rect:
@@ -1998,6 +3405,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue13.png
       rect:
@@ -2012,6 +3426,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue14.png
       rect:
@@ -2026,6 +3447,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue15.png
       rect:
@@ -2040,6 +3468,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserBlue16.png
       rect:
@@ -2054,6 +3489,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen01.png
       rect:
@@ -2068,6 +3510,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen02.png
       rect:
@@ -2082,6 +3531,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen03.png
       rect:
@@ -2096,6 +3552,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen04.png
       rect:
@@ -2110,6 +3573,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen05.png
       rect:
@@ -2124,6 +3594,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen06.png
       rect:
@@ -2138,6 +3615,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen07.png
       rect:
@@ -2152,6 +3636,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen08.png
       rect:
@@ -2166,6 +3657,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen09.png
       rect:
@@ -2180,6 +3678,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen10.png
       rect:
@@ -2194,6 +3699,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen11.png
       rect:
@@ -2208,6 +3720,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen12.png
       rect:
@@ -2222,6 +3741,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen13.png
       rect:
@@ -2236,6 +3762,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen14.png
       rect:
@@ -2250,6 +3783,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen15.png
       rect:
@@ -2264,6 +3804,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserGreen16.png
       rect:
@@ -2278,6 +3825,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed01.png
       rect:
@@ -2292,6 +3846,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed02.png
       rect:
@@ -2306,6 +3867,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed03.png
       rect:
@@ -2320,6 +3888,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed04.png
       rect:
@@ -2334,6 +3909,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed05.png
       rect:
@@ -2348,6 +3930,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed06.png
       rect:
@@ -2362,6 +3951,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed07.png
       rect:
@@ -2376,6 +3972,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed08.png
       rect:
@@ -2390,6 +3993,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed09.png
       rect:
@@ -2404,6 +4014,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed10.png
       rect:
@@ -2418,6 +4035,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed11.png
       rect:
@@ -2432,6 +4056,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed12.png
       rect:
@@ -2446,6 +4077,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84405410000000000800000000000000
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed13.png
       rect:
@@ -2460,6 +4098,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a4405410000000000800000000000000
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed14.png
       rect:
@@ -2474,6 +4119,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4405410000000000800000000000000
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed15.png
       rect:
@@ -2488,6 +4140,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e4405410000000000800000000000000
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: laserRed16.png
       rect:
@@ -2502,6 +4161,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_big1.png
       rect:
@@ -2516,6 +4182,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_big2.png
       rect:
@@ -2530,6 +4203,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 45405410000000000800000000000000
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_big3.png
       rect:
@@ -2544,6 +4224,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_big4.png
       rect:
@@ -2558,6 +4245,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_med1.png
       rect:
@@ -2572,6 +4266,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a5405410000000000800000000000000
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_med3.png
       rect:
@@ -2586,6 +4287,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_small1.png
       rect:
@@ -2600,6 +4308,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e5405410000000000800000000000000
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_small2.png
       rect:
@@ -2614,6 +4329,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 06405410000000000800000000000000
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_tiny1.png
       rect:
@@ -2628,6 +4350,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 26405410000000000800000000000000
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorBrown_tiny2.png
       rect:
@@ -2642,6 +4371,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 46405410000000000800000000000000
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_big1.png
       rect:
@@ -2656,6 +4392,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 66405410000000000800000000000000
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_big2.png
       rect:
@@ -2670,6 +4413,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 86405410000000000800000000000000
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_big3.png
       rect:
@@ -2684,6 +4434,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a6405410000000000800000000000000
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_big4.png
       rect:
@@ -2698,6 +4455,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c6405410000000000800000000000000
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_med1.png
       rect:
@@ -2712,6 +4476,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e6405410000000000800000000000000
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_med2.png
       rect:
@@ -2726,6 +4497,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 07405410000000000800000000000000
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_small1.png
       rect:
@@ -2740,6 +4518,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 27405410000000000800000000000000
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_small2.png
       rect:
@@ -2754,6 +4539,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 47405410000000000800000000000000
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_tiny1.png
       rect:
@@ -2768,6 +4560,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 67405410000000000800000000000000
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: meteorGrey_tiny2.png
       rect:
@@ -2782,6 +4581,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 87405410000000000800000000000000
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral0.png
       rect:
@@ -2796,6 +4602,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a7405410000000000800000000000000
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral1.png
       rect:
@@ -2810,6 +4623,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c7405410000000000800000000000000
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral2.png
       rect:
@@ -2824,6 +4644,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e7405410000000000800000000000000
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral3.png
       rect:
@@ -2838,6 +4665,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 08405410000000000800000000000000
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral4.png
       rect:
@@ -2852,6 +4686,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 28405410000000000800000000000000
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral5.png
       rect:
@@ -2866,6 +4707,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 48405410000000000800000000000000
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral6.png
       rect:
@@ -2880,6 +4728,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 68405410000000000800000000000000
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral7.png
       rect:
@@ -2894,6 +4749,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 88405410000000000800000000000000
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral8.png
       rect:
@@ -2908,6 +4770,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a8405410000000000800000000000000
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeral9.png
       rect:
@@ -2922,6 +4791,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c8405410000000000800000000000000
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: numeralX.png
       rect:
@@ -2936,6 +4812,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e8405410000000000800000000000000
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pill_blue.png
       rect:
@@ -2950,6 +4833,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09405410000000000800000000000000
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pill_green.png
       rect:
@@ -2964,6 +4854,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 29405410000000000800000000000000
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pill_red.png
       rect:
@@ -2978,6 +4875,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 49405410000000000800000000000000
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pill_yellow.png
       rect:
@@ -2992,6 +4896,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 69405410000000000800000000000000
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife1_blue.png
       rect:
@@ -3006,6 +4917,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 89405410000000000800000000000000
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife1_green.png
       rect:
@@ -3020,6 +4938,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a9405410000000000800000000000000
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife1_orange.png
       rect:
@@ -3034,6 +4959,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c9405410000000000800000000000000
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife1_red.png
       rect:
@@ -3048,6 +4980,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e9405410000000000800000000000000
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife2_blue.png
       rect:
@@ -3062,6 +5001,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0a405410000000000800000000000000
+      internalID: 21300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife2_green.png
       rect:
@@ -3076,6 +5022,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2a405410000000000800000000000000
+      internalID: 21300386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife2_orange.png
       rect:
@@ -3090,6 +5043,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4a405410000000000800000000000000
+      internalID: 21300388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife2_red.png
       rect:
@@ -3104,6 +5064,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6a405410000000000800000000000000
+      internalID: 21300390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife3_blue.png
       rect:
@@ -3118,6 +5085,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8a405410000000000800000000000000
+      internalID: 21300392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife3_green.png
       rect:
@@ -3132,6 +5106,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa405410000000000800000000000000
+      internalID: 21300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife3_orange.png
       rect:
@@ -3146,6 +5127,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ca405410000000000800000000000000
+      internalID: 21300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerLife3_red.png
       rect:
@@ -3160,6 +5148,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ea405410000000000800000000000000
+      internalID: 21300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_blue.png
       rect:
@@ -3174,6 +5169,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b405410000000000800000000000000
+      internalID: 21300400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_damage1.png
       rect:
@@ -3188,6 +5190,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2b405410000000000800000000000000
+      internalID: 21300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_damage2.png
       rect:
@@ -3202,6 +5211,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4b405410000000000800000000000000
+      internalID: 21300404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_damage3.png
       rect:
@@ -3216,6 +5232,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6b405410000000000800000000000000
+      internalID: 21300406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_green.png
       rect:
@@ -3230,6 +5253,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8b405410000000000800000000000000
+      internalID: 21300408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_orange.png
       rect:
@@ -3244,6 +5274,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ab405410000000000800000000000000
+      internalID: 21300410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip1_red.png
       rect:
@@ -3258,6 +5295,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cb405410000000000800000000000000
+      internalID: 21300412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_blue.png
       rect:
@@ -3272,6 +5316,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb405410000000000800000000000000
+      internalID: 21300414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_damage1.png
       rect:
@@ -3286,6 +5337,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0c405410000000000800000000000000
+      internalID: 21300416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_damage2.png
       rect:
@@ -3300,6 +5358,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2c405410000000000800000000000000
+      internalID: 21300418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_damage3.png
       rect:
@@ -3314,6 +5379,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4c405410000000000800000000000000
+      internalID: 21300420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_green.png
       rect:
@@ -3328,6 +5400,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6c405410000000000800000000000000
+      internalID: 21300422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_orange.png
       rect:
@@ -3342,6 +5421,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c405410000000000800000000000000
+      internalID: 21300424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip2_red.png
       rect:
@@ -3356,6 +5442,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ac405410000000000800000000000000
+      internalID: 21300426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_blue.png
       rect:
@@ -3370,6 +5463,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cc405410000000000800000000000000
+      internalID: 21300428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_damage1.png
       rect:
@@ -3384,6 +5484,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ec405410000000000800000000000000
+      internalID: 21300430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_damage2.png
       rect:
@@ -3398,6 +5505,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0d405410000000000800000000000000
+      internalID: 21300432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_damage3.png
       rect:
@@ -3412,6 +5526,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2d405410000000000800000000000000
+      internalID: 21300434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_green.png
       rect:
@@ -3426,6 +5547,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4d405410000000000800000000000000
+      internalID: 21300436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_orange.png
       rect:
@@ -3440,6 +5568,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6d405410000000000800000000000000
+      internalID: 21300438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: playerShip3_red.png
       rect:
@@ -3454,6 +5589,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8d405410000000000800000000000000
+      internalID: 21300440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupBlue.png
       rect:
@@ -3468,6 +5610,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ad405410000000000800000000000000
+      internalID: 21300442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupBlue_bolt.png
       rect:
@@ -3482,6 +5631,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cd405410000000000800000000000000
+      internalID: 21300444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupBlue_shield.png
       rect:
@@ -3496,6 +5652,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ed405410000000000800000000000000
+      internalID: 21300446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupBlue_star.png
       rect:
@@ -3510,6 +5673,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0e405410000000000800000000000000
+      internalID: 21300448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupGreen.png
       rect:
@@ -3524,6 +5694,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2e405410000000000800000000000000
+      internalID: 21300450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupGreen_bolt.png
       rect:
@@ -3538,6 +5715,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4e405410000000000800000000000000
+      internalID: 21300452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupGreen_shield.png
       rect:
@@ -3552,6 +5736,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6e405410000000000800000000000000
+      internalID: 21300454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupGreen_star.png
       rect:
@@ -3566,6 +5757,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8e405410000000000800000000000000
+      internalID: 21300456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupRed.png
       rect:
@@ -3580,6 +5778,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ae405410000000000800000000000000
+      internalID: 21300458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupRed_bolt.png
       rect:
@@ -3594,6 +5799,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ce405410000000000800000000000000
+      internalID: 21300460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupRed_shield.png
       rect:
@@ -3608,6 +5820,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ee405410000000000800000000000000
+      internalID: 21300462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupRed_star.png
       rect:
@@ -3622,6 +5841,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0f405410000000000800000000000000
+      internalID: 21300464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupYellow.png
       rect:
@@ -3636,6 +5862,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2f405410000000000800000000000000
+      internalID: 21300466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupYellow_bolt.png
       rect:
@@ -3650,6 +5883,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4f405410000000000800000000000000
+      internalID: 21300468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupYellow_shield.png
       rect:
@@ -3664,6 +5904,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6f405410000000000800000000000000
+      internalID: 21300470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: powerupYellow_star.png
       rect:
@@ -3678,6 +5925,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8f405410000000000800000000000000
+      internalID: 21300472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: scratch1.png
       rect:
@@ -3692,6 +5946,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: af405410000000000800000000000000
+      internalID: 21300474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: scratch2.png
       rect:
@@ -3706,6 +5967,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cf405410000000000800000000000000
+      internalID: 21300476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: scratch3.png
       rect:
@@ -3720,6 +5988,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ef405410000000000800000000000000
+      internalID: 21300478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield1.png
       rect:
@@ -3734,6 +6009,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 00505410000000000800000000000000
+      internalID: 21300480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield2.png
       rect:
@@ -3748,6 +6030,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 20505410000000000800000000000000
+      internalID: 21300482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield3.png
       rect:
@@ -3762,6 +6051,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 40505410000000000800000000000000
+      internalID: 21300484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield_bronze.png
       rect:
@@ -3776,6 +6072,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 60505410000000000800000000000000
+      internalID: 21300486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield_gold.png
       rect:
@@ -3790,6 +6093,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 80505410000000000800000000000000
+      internalID: 21300488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: shield_silver.png
       rect:
@@ -3804,6 +6114,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a0505410000000000800000000000000
+      internalID: 21300490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: speed.png
       rect:
@@ -3818,6 +6135,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c0505410000000000800000000000000
+      internalID: 21300492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star1.png
       rect:
@@ -3832,6 +6156,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e0505410000000000800000000000000
+      internalID: 21300494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star2.png
       rect:
@@ -3846,6 +6177,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 01505410000000000800000000000000
+      internalID: 21300496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star3.png
       rect:
@@ -3860,6 +6198,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 21505410000000000800000000000000
+      internalID: 21300498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star_bronze.png
       rect:
@@ -3874,6 +6219,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 41505410000000000800000000000000
+      internalID: 21300500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star_gold.png
       rect:
@@ -3888,6 +6240,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 61505410000000000800000000000000
+      internalID: 21300502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: star_silver.png
       rect:
@@ -3902,6 +6261,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81505410000000000800000000000000
+      internalID: 21300504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: things_bronze.png
       rect:
@@ -3916,6 +6282,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a1505410000000000800000000000000
+      internalID: 21300506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: things_gold.png
       rect:
@@ -3930,6 +6303,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c1505410000000000800000000000000
+      internalID: 21300508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: things_silver.png
       rect:
@@ -3944,6 +6324,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e1505410000000000800000000000000
+      internalID: 21300510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: turretBase_big.png
       rect:
@@ -3958,6 +6345,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 02505410000000000800000000000000
+      internalID: 21300512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: turretBase_small.png
       rect:
@@ -3972,6 +6366,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22505410000000000800000000000000
+      internalID: 21300514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ufoBlue.png
       rect:
@@ -3986,6 +6387,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 42505410000000000800000000000000
+      internalID: 21300516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ufoGreen.png
       rect:
@@ -4000,6 +6408,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 62505410000000000800000000000000
+      internalID: 21300518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ufoRed.png
       rect:
@@ -4014,6 +6429,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 82505410000000000800000000000000
+      internalID: 21300520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ufoYellow.png
       rect:
@@ -4028,6 +6450,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a2505410000000000800000000000000
+      internalID: 21300522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_0.png
       rect:
@@ -4042,6 +6471,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c2505410000000000800000000000000
+      internalID: 21300524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_1.png
       rect:
@@ -4056,6 +6492,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2505410000000000800000000000000
+      internalID: 21300526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_2.png
       rect:
@@ -4070,6 +6513,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03505410000000000800000000000000
+      internalID: 21300528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_3.png
       rect:
@@ -4084,6 +6534,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 23505410000000000800000000000000
+      internalID: 21300530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_4.png
       rect:
@@ -4098,6 +6555,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 43505410000000000800000000000000
+      internalID: 21300532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_5.png
       rect:
@@ -4112,6 +6576,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 63505410000000000800000000000000
+      internalID: 21300534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_6.png
       rect:
@@ -4126,6 +6597,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83505410000000000800000000000000
+      internalID: 21300536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingBlue_7.png
       rect:
@@ -4140,6 +6618,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a3505410000000000800000000000000
+      internalID: 21300538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_0.png
       rect:
@@ -4154,6 +6639,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3505410000000000800000000000000
+      internalID: 21300540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_1.png
       rect:
@@ -4168,6 +6660,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e3505410000000000800000000000000
+      internalID: 21300542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_2.png
       rect:
@@ -4182,6 +6681,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 04505410000000000800000000000000
+      internalID: 21300544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_3.png
       rect:
@@ -4196,6 +6702,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24505410000000000800000000000000
+      internalID: 21300546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_4.png
       rect:
@@ -4210,6 +6723,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44505410000000000800000000000000
+      internalID: 21300548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_5.png
       rect:
@@ -4224,6 +6744,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 64505410000000000800000000000000
+      internalID: 21300550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_6.png
       rect:
@@ -4238,6 +6765,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84505410000000000800000000000000
+      internalID: 21300552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingGreen_7.png
       rect:
@@ -4252,6 +6786,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a4505410000000000800000000000000
+      internalID: 21300554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_0.png
       rect:
@@ -4266,6 +6807,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4505410000000000800000000000000
+      internalID: 21300556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_1.png
       rect:
@@ -4280,6 +6828,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e4505410000000000800000000000000
+      internalID: 21300558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_2.png
       rect:
@@ -4294,6 +6849,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 05505410000000000800000000000000
+      internalID: 21300560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_3.png
       rect:
@@ -4308,6 +6870,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 25505410000000000800000000000000
+      internalID: 21300562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_4.png
       rect:
@@ -4322,6 +6891,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 45505410000000000800000000000000
+      internalID: 21300564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_5.png
       rect:
@@ -4336,6 +6912,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65505410000000000800000000000000
+      internalID: 21300566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_6.png
       rect:
@@ -4350,6 +6933,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85505410000000000800000000000000
+      internalID: 21300568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingRed_7.png
       rect:
@@ -4364,6 +6954,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a5505410000000000800000000000000
+      internalID: 21300570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_0.png
       rect:
@@ -4378,6 +6975,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5505410000000000800000000000000
+      internalID: 21300572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_1.png
       rect:
@@ -4392,6 +6996,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e5505410000000000800000000000000
+      internalID: 21300574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_2.png
       rect:
@@ -4406,6 +7017,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 06505410000000000800000000000000
+      internalID: 21300576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_3.png
       rect:
@@ -4420,6 +7038,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 26505410000000000800000000000000
+      internalID: 21300578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_4.png
       rect:
@@ -4434,6 +7059,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 46505410000000000800000000000000
+      internalID: 21300580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_5.png
       rect:
@@ -4448,6 +7080,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 66505410000000000800000000000000
+      internalID: 21300582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_6.png
       rect:
@@ -4462,6 +7101,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 86505410000000000800000000000000
+      internalID: 21300584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: wingYellow_7.png
       rect:
@@ -4476,9 +7122,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a6505410000000000800000000000000
+      internalID: 21300586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

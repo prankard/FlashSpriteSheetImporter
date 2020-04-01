@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SpriteSheetWithInvalidDimensions.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Clip 10000" x="2" y="2" width="38" height="40" pivotX="-103.6" pivotY="-76.95" frameX="-8" frameY="-6" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10001" x="42" y="2" width="76" height="61" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10002" x="120" y="2" width="99" height="71" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10003" x="221" y="2" width="123" height="81" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10004" x="346" y="2" width="146" height="91" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10005" x="494" y="2" width="170" height="101" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10006" x="666" y="2" width="193" height="112" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10007" x="2" y="116" width="217" height="122" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10008" x="221" y="116" width="240" height="132" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10009" x="463" y="116" width="264" height="142" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10010" x="729" y="116" width="287" height="152" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10011" x="2" y="270" width="311" height="162" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10012" x="315" y="270" width="334" height="173" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10013" x="651" y="270" width="357" height="183" frameX="0" frameY="0" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10014" x="2" y="455" width="365" height="177" frameX="-8" frameY="-8" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10015" x="369" y="455" width="356" height="182" frameX="-25" frameY="-11" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10016" x="2" y="639" width="331" height="171" frameX="-50" frameY="-22" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10017" x="335" y="639" width="308" height="161" frameX="-73" frameY="-32" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10018" x="645" y="639" width="308" height="161" frameX="-73" frameY="-32" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10019" x="2" y="812" width="308" height="161" frameX="-73" frameY="-32" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10020" x="312" y="812" width="231" height="127" frameX="-150" frameY="-66" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10021" x="545" y="812" width="220" height="116" frameX="-161" frameY="-77" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10022" x="767" y="812" width="220" height="105" frameX="-161" frameY="-88" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10023" x="2" y="975" width="220" height="94" frameX="-161" frameY="-99" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10024" x="224" y="975" width="131" height="83" frameX="-250" frameY="-110" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10025" x="357" y="975" width="106" height="72" frameX="-275" frameY="-121" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10026" x="465" y="975" width="81" height="61" frameX="-300" frameY="-132" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10027" x="548" y="975" width="39" height="42" frameX="-334" frameY="-148" frameWidth="381" frameHeight="193"/>
+	<SubTexture name="Clip 10028" x="589" y="975" width="-214748271" height="-214748271" frameX="-107373942" frameY="-107373982" frameWidth="381" frameHeight="193"/>
+</TextureAtlas>
