@@ -31,6 +31,7 @@ namespace Prankard.FlashSpriteSheetImporter
         private bool forcePivotOverwrite = false;
         private bool generateSpriteSheet = false;
         private bool generateAnimationController = false;
+        private AnimationCreator.RendererType rendererType;
         private bool generateGameObject = false;
         private float fps = 24.0f;
 
@@ -82,6 +83,7 @@ namespace Prankard.FlashSpriteSheetImporter
             generateSpriteSheet = EditorGUILayout.Toggle("Generate Animation", generateSpriteSheet);
             if (generateSpriteSheet)
             {
+                rendererType = (AnimationCreator.RendererType)EditorGUILayout.EnumPopup("Renderer", rendererType);
                 fps = EditorGUILayout.FloatField("Frames Per Second", fps);
                 if (generateGameObject)
                 {
@@ -116,7 +118,7 @@ namespace Prankard.FlashSpriteSheetImporter
                         Debug.Log("Imported Sprites");
                         if (generateSpriteSheet)
                         {
-                            AnimationCreator.GenerateAnimation(spriteSheet, fps, generateAnimationController, generateGameObject);
+                            AnimationCreator.GenerateAnimation(spriteSheet, fps, rendererType, generateAnimationController, generateGameObject);
                         }
 
                         return;
