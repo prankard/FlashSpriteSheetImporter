@@ -247,7 +247,10 @@ namespace Prankard.FlashSpriteSheetImporter
                         heights.Add(0); widths.Add(0); pivotXs.Add(0); pivotYs.Add(0);
                         continue;
                     }
-
+                    Debug.Log(sprite.rect.width);
+                    Debug.Log(sprite.rect.height);
+                    Debug.Log(sprite.rect.size);
+                    Debug.Log("--");
                     widths.Add(sprite.rect.size.x);
                     heights.Add(sprite.rect.size.y);
                     pivotXs.Add(sprite.pivot.x / sprite.rect.size.x);
@@ -266,15 +269,20 @@ namespace Prankard.FlashSpriteSheetImporter
         {
             var binding = GetKeyframeBindings(propertyName, propertyType, transformPath);
 
-            Keyframe[] keyFrames = new Keyframe[values.Length];
+            List<Keyframe> keyFrames = new List<Keyframe>();
             for (int i = 0; i < (values.Length); i++)
             {
-                keyFrames[i] = new Keyframe();
-                keyFrames[i].time = i / clip.frameRate;
-                keyFrames[i].value = values[i];
+                var keyframe = new Keyframe();
+                var keyframe2 = new Keyframe();
+                keyframe.time = i / clip.frameRate;
+                keyframe2.time = (i + 0.999f) / clip.frameRate;
+                keyframe2.value = keyframe.value = values[i];
+                keyframe2.inTangent = keyframe2.outTangent = keyframe.inTangent = keyframe.outTangent = 0; // linear (no curve)
+                keyFrames.Add(keyframe);
+                keyFrames.Add(keyframe2);
             }
 
-            AnimationUtility.SetEditorCurve(clip, binding, new AnimationCurve(keyFrames));
+            AnimationUtility.SetEditorCurve(clip, binding, new AnimationCurve(keyFrames.ToArray()));
         }
 
         private static void AddKeyframes(AnimationClip clip, string propertyName, System.Type propertyType, UnityEngine.Object[] values, string transformPath = "")
